@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai"
+CMAKE_SOURCE_DIR = "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build"
+CMAKE_BINARY_DIR = "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Tutorials_OpenSai.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/Tutorials_OpenSai.dir/codegen:
 .PHONY : CMakeFiles/Tutorials_OpenSai.dir/codegen
 
 CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o: CMakeFiles/Tutorials_OpenSai.dir/flags.make
-CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/tutorials/main_tutorials.cpp
+CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/tutorials/main_tutorials.cpp
 CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o: CMakeFiles/Tutorials_OpenSai.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o -MF CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o.d -o CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o -c "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/tutorials/main_tutorials.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o -MF CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o.d -o CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o -c "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/tutorials/main_tutorials.cpp"
 
 CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/tutorials/main_tutorials.cpp" > CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/tutorials/main_tutorials.cpp" > CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.i
 
 CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/tutorials/main_tutorials.cpp" -o CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/tutorials/main_tutorials.cpp" -o CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.s
 
 # Object files for target Tutorials_OpenSai
 Tutorials_OpenSai_OBJECTS = \
@@ -93,29 +93,29 @@ Tutorials_OpenSai_OBJECTS = \
 # External object files for target Tutorials_OpenSai
 Tutorials_OpenSai_EXTERNAL_OBJECTS =
 
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: CMakeFiles/Tutorials_OpenSai.dir/build.make
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-graphics/build/libsai-graphics.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /opt/homebrew/lib/libglfw.dylib
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-urdfreader/build/libsai-urdf.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /opt/homebrew/lib/libtinyxml2.dylib
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/build/libchai3d.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-interfaces/build/libsai-interfaces.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/build/libsai-primitives.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/build/libruckig.dylib
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/build/libsai-model.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/build/librbdl.dylib
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/build/libsai-simulation.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/lib/macOS/arm64/libsai-simulation-core.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-common/build/libsai-common.a
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /opt/homebrew/lib/libjsoncpp.dylib
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: /opt/homebrew/lib/libhiredis.dylib
-/Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai: CMakeFiles/Tutorials_OpenSai.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable \"/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai\""
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: CMakeFiles/Tutorials_OpenSai.dir/build.make
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-graphics/build/libsai-graphics.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /opt/homebrew/lib/libglfw.dylib
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-urdfreader/build/libsai-urdf.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /opt/homebrew/lib/libtinyxml2.dylib
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/build/libchai3d.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-interfaces/build/libsai-interfaces.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/build/libsai-primitives.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/build/libruckig.dylib
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/build/libsai-model.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/build/librbdl.dylib
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/build/libsai-simulation.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/lib/macOS/arm64/libsai-simulation-core.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-common/build/libsai-common.a
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /opt/homebrew/lib/libjsoncpp.dylib
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: /opt/homebrew/lib/libhiredis.dylib
+/Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai: CMakeFiles/Tutorials_OpenSai.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable \"/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai\""
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tutorials_OpenSai.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Tutorials_OpenSai.dir/build: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/bin/Tutorials_OpenSai
+CMakeFiles/Tutorials_OpenSai.dir/build: /Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/bin/Tutorials_OpenSai
 .PHONY : CMakeFiles/Tutorials_OpenSai.dir/build
 
 CMakeFiles/Tutorials_OpenSai.dir/clean:
@@ -123,6 +123,6 @@ CMakeFiles/Tutorials_OpenSai.dir/clean:
 .PHONY : CMakeFiles/Tutorials_OpenSai.dir/clean
 
 CMakeFiles/Tutorials_OpenSai.dir/depend:
-	cd "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai" "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai" "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build" "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build" "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles/Tutorials_OpenSai.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject" "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject" "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build" "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build" "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles/Tutorials_OpenSai.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/Tutorials_OpenSai.dir/depend
 

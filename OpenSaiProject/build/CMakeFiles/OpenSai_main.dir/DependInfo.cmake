@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/src/main.cpp" "CMakeFiles/OpenSai_main.dir/src/main.cpp.o" "gcc" "CMakeFiles/OpenSai_main.dir/src/main.cpp.o.d"
+  "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/src/main.cpp" "CMakeFiles/OpenSai_main.dir/src/main.cpp.o" "gcc" "CMakeFiles/OpenSai_main.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/bin/OpenSai_main"
-  "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/bin/OpenSai_main.pdb"
+  "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/bin/OpenSai_main"
+  "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/bin/OpenSai_main.pdb"
   "CMakeFiles/OpenSai_main.dir/src/main.cpp.o"
   "CMakeFiles/OpenSai_main.dir/src/main.cpp.o.d"
 )

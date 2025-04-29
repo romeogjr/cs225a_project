@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai"
+CMAKE_SOURCE_DIR = "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build"
+CMAKE_BINARY_DIR = "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -88,14 +88,14 @@ clean: CMakeFiles/Tutorials_OpenSai.dir/clean
 CMakeFiles/OpenSai_main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenSai_main.dir/build.make CMakeFiles/OpenSai_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenSai_main.dir/build.make CMakeFiles/OpenSai_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" --progress-num=1,2 "Built target OpenSai_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" --progress-num=1,2 "Built target OpenSai_main"
 .PHONY : CMakeFiles/OpenSai_main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenSai_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/OpenSai_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" 0
 .PHONY : CMakeFiles/OpenSai_main.dir/rule
 
 # Convenience name for target.
@@ -105,7 +105,7 @@ OpenSai_main: CMakeFiles/OpenSai_main.dir/rule
 # codegen rule for target.
 CMakeFiles/OpenSai_main.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenSai_main.dir/build.make CMakeFiles/OpenSai_main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" --progress-num=1,2 "Finished codegen for target OpenSai_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" --progress-num=1,2 "Finished codegen for target OpenSai_main"
 .PHONY : CMakeFiles/OpenSai_main.dir/codegen
 
 # clean rule for target.
@@ -120,14 +120,14 @@ CMakeFiles/OpenSai_main.dir/clean:
 CMakeFiles/Tutorials_OpenSai.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorials_OpenSai.dir/build.make CMakeFiles/Tutorials_OpenSai.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorials_OpenSai.dir/build.make CMakeFiles/Tutorials_OpenSai.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" --progress-num=3,4 "Built target Tutorials_OpenSai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" --progress-num=3,4 "Built target Tutorials_OpenSai"
 .PHONY : CMakeFiles/Tutorials_OpenSai.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Tutorials_OpenSai.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Tutorials_OpenSai.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" 0
 .PHONY : CMakeFiles/Tutorials_OpenSai.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ Tutorials_OpenSai: CMakeFiles/Tutorials_OpenSai.dir/rule
 # codegen rule for target.
 CMakeFiles/Tutorials_OpenSai.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorials_OpenSai.dir/build.make CMakeFiles/Tutorials_OpenSai.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/hw/OpenSai/build/CMakeFiles" --progress-num=3,4 "Finished codegen for target Tutorials_OpenSai"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSaiProject/build/CMakeFiles" --progress-num=3,4 "Finished codegen for target Tutorials_OpenSai"
 .PHONY : CMakeFiles/Tutorials_OpenSai.dir/codegen
 
 # clean rule for target.

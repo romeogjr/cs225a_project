@@ -1,5 +1,5 @@
 CMakeFiles/Tutorials_OpenSai.dir/tutorials/main_tutorials.cpp.o: \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/tutorials/main_tutorials.cpp \
+  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSaiProject/tutorials/main_tutorials.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
