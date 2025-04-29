@@ -1,0 +1,115 @@
+<!-- Parametrization -->
+<div class="row mt-5">
+	<h2>Force controller parametrization</h2>
+	<div class="row">
+		<div class="section p-3">
+			<sai-interfaces-toggle key="{{_prefix_}}closed_loop_force_control" display="Closed loop force control" />
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6">
+			<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+				<h3>Force space</h3>
+				<div class="row">
+					<sai-interfaces-enum key="{{_prefix_}}force_space_dimension" display="Dimension"
+						values="[0,1,2,3]" />
+				</div>
+				<div class="row">
+					<sai-interfaces-axis-setter key="{{_prefix_}}force_space_axis" display="Axis" />
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+				<h3>Moment space</h3>
+				<div class="row">
+					<sai-interfaces-enum key="{{_prefix_}}moment_space_dimension" display="Dimension"
+						values="[0,1,2,3]" />
+				</div>
+				<div class="row">
+					<sai-interfaces-axis-setter key="{{_prefix_}}moment_space_axis" display="Axis" />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Goals -->
+<div class="row mt-2 mb-2">
+	<!-- Force -->
+	<h2>Force goals</h2>
+	<div class="col-md-6">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<div class="row">
+				<h3>Desired Force</h3>
+				<sai-interfaces-slider key="{{_prefix_}}desired_force" display='["Fx", "Fy", "Fz"]'
+					min="{{_min_desired_force_}}" max="{{_max_desired_force_}}" step="0.1" />
+			</div>
+			<div class="row">
+				<sai-interfaces-display key="{{_prefix_}}sensed_force" display="sensed force" displayAsRowVector />
+			</div>
+		</div>
+	</div>
+	<!-- Moment -->
+	<div class="col-md-6">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<div class="row">
+				<h3>Desired Moment</h3>
+				<sai-interfaces-slider key="{{_prefix_}}desired_moment" display='["Mx", "My", "Mz"]'
+					min="{{_min_desired_moment_}}" max="{{_max_desired_moment_}}" step="0.1" />
+			</div>
+			<div class="row">
+				<sai-interfaces-display key="{{_prefix_}}sensed_moment" display="sensed moment" displayAsRowVector />
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Force Gains -->
+<div class="row mt-2 mb-2">
+	<h2>Force Gains</h2>
+	<!-- Kp -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Force Kp</h3>
+			<sai-interfaces-slider key="{{_prefix_}}force_kp" display=" " min="0" max="5" step="0.01" />
+		</div>
+	</div>
+	<!-- Kv -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Force Kv</h3>
+			<sai-interfaces-slider key="{{_prefix_}}force_kv" display=" " min="0" max="50" step="0.01" />
+		</div>
+	</div>
+	<!-- Ki -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Force Ki</h3>
+			<sai-interfaces-slider key="{{_prefix_}}force_ki" display=" " min="0" max="10" step="0.01" />
+		</div>
+	</div>
+</div>
+<!-- Orientation Gains -->
+<div class="row mb-5">
+	<h2>Moment Gains</h2>
+	<!-- Kp -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Moment Kp</h3>
+			<sai-interfaces-slider key="{{_prefix_}}moment_kp" display=" " min="0" max="5" step="0.01" />
+		</div>
+	</div>
+	<!-- Kv -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Moment Kv</h3>
+			<sai-interfaces-slider key="{{_prefix_}}moment_kv" display=" " min="0" max="50" step="0.01" />
+		</div>
+	</div>
+	<!-- Ki -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Moment Ki</h3>
+			<sai-interfaces-slider key="{{_prefix_}}moment_ki" display=" " min="0" max="10" step="0.01" />
+		</div>
+	</div>
+</div>

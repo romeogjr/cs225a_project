@@ -1,0 +1,23 @@
+select {
+  text-overflow: ellipsis;
+  height: auto;
+  width: auto;
+}
+
+.disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.button-enable {
+  background-color: #4CAF50;
+}
+
+.button-disable {
+  background-color: #f44336;
+}
+
+input[type=number] {
+  width: auto;
+  -moz-appearance: textfield;
+}

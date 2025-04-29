@@ -1,0 +1,12 @@
+# compute paths
+get_filename_component(SAI-INTERFACES_CMAKE_DIR "${CMAKE_CURRENT_LIST_FILE}" PATH)
+set(SAI-INTERFACES_UI_DIR "@SAI-INTERFACES_UI_DIR@")
+set(SAI-INTERFACES_INCLUDE_DIRS "@CONF_INCLUDE_DIRS@")
+ 
+# library dependencies (contains definitions for IMPORTED targets)
+if(NOT TARGET sai-interfaces AND NOT SAI-INTERFACES_BINARY_DIR)
+  include("${SAI-INTERFACES_CMAKE_DIR}/SAI-INTERFACESTargets.cmake")
+endif()
+
+# IMPORTED target created by SAI-INTERFACESTargets.cmake
+set(SAI-INTERFACES_LIBRARIES "@CONF_LIBRARIES@")

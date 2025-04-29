@@ -1,0 +1,101 @@
+<!-- Position goal, dun decoupling and vel saturation -->
+<div class="row mt-2 mb-2">
+	<h2>Goal, Dynamic behavior</h2>
+	<!-- Position goal -->
+	<div class="col-md-6">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Desired Position</h3>
+			<sai-interfaces-slider key="{{_prefix_}}goal_position" display='{{_display_names_}}' min="{{_joint_lower_limits_}}" max="{{_joint_upper_limits_}}"
+				step="0.01" />
+		</div>
+	</div>
+	<!-- Dynamic decoupling and Velocity Saturation -->
+	<div class="col-md-6">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Dynamic decoupling and Velocity Saturation</h3>
+
+			<div class="section p-2">
+				<sai-interfaces-toggle key="{{_prefix_}}use_dynamic_decoupling" display="Use Dynamic Decoupling" />
+			</div>
+			<div class="section p-2">
+				<sai-interfaces-accordion displayName="Use Velocity Saturation"
+					key="{{_prefix_}}velocity_saturation_enabled">
+					<div class="section p-2 mt-3">
+						<sai-interfaces-slider key="{{_prefix_}}velocity_saturation_limit" display='max_velocity'
+							min="0.01" max="6.28" step="0.01" />
+					</div>
+				</sai-interfaces-accordion>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Gains -->
+<div class="row mt-2 mb-2">
+	<h2>Gains</h2>
+	<!-- Kp -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Kp</h3>
+			<sai-interfaces-slider key="{{_prefix_}}kp" display=" " min="0" max="400" step="0.01" />
+		</div>
+	</div>
+	<!-- Kv -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Kv</h3>
+			<sai-interfaces-toggle-group name="Use Safe Gains" enabled"
+				key="{{_prefix_}}gains_safety_checks_enabled">
+				<sai-interfaces-toggle-group-enabled>
+					<sai-interfaces-slider key="{{_prefix_}}kv" display=" " min="0" max="60" step="0.01" />
+				</sai-interfaces-toggle-group-enabled>
+				<sai-interfaces-toggle-group-disabled>
+					<sai-interfaces-slider key="{{_prefix_}}kv" display="(unsafe) " min="-20" max="60" step="0.01" />
+				</sai-interfaces-toggle-group-disabled>
+			</sai-interfaces-toggle-group>
+		</div>
+	</div>
+	<!-- Ki -->
+	<div class="col-md-4">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>Ki</h3>
+			<sai-interfaces-slider key="{{_prefix_}}ki" display=" " min="0" max="100" step="0.01" />
+		</div>
+	</div>
+</div>
+
+
+<div class="row mt-2 mb-2">
+	<!-- OTG -->
+	<h2>Online trajectory generation</h2>
+	<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+		<sai-interfaces-accordion displayName="Use OTG" key="{{_prefix_}}otg_enabled">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="section p-2">
+						<sai-interfaces-slider key="{{_prefix_}}otg_max_velocity" display='max velocity' min="0.01"
+							max="6.28" step="0.01" />
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="section p-2">
+						<sai-interfaces-slider key="{{_prefix_}}otg_max_acceleration" display='max acceleration'
+							min="0.01" max="25.0" step="0.01" />
+					</div>
+				</div>
+				<div class="col-md-4">
+					<sai-interfaces-toggle-group name="Use jerk limits" key="{{_prefix_}}otg_jerk_limited">
+						<sai-interfaces-toggle-group-enabled>
+							<div class="section p-2">
+								<sai-interfaces-slider key="{{_prefix_}}otg_max_jerk" display='max jerk' min="0.01"
+									max="150" step="0.1" />
+							</div>
+						</sai-interfaces-toggle-group-enabled>
+						<sai-interfaces-toggle-group-disabled>
+						</sai-interfaces-toggle-group-disabled>
+					</sai-interfaces-toggle-group>
+				</div>
+			</div>
+		</sai-interfaces-accordion>
+	</div>
+</div>

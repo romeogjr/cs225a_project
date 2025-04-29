@@ -1,0 +1,9 @@
+click
+redis
+hiredis
+eventlet
+flask==2.2.5
+flask-socketio==5.3.6
+multitimer
+matplotlib
+plotly

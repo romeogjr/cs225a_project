@@ -1,0 +1,23 @@
+<div class="row my-2">
+	<div class="col-md-12">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>{{_object_name_}} Specific Parameters for SimViz</h3>
+			<sai-interfaces-simple-data-structure-setter key="{{_prefix_}}simviz::{{_object_name_}}::model_specific_parameters" />
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>{{_object_name_}} Pose</h3>
+			<sai-interfaces-display labelOnTop key="{{_prefix_}}sensors::{{_object_name_}}::object_pose" display=" " />
+		</div>
+	</div>
+	<div class="col-md-6">
+		<div class="section p-3 mt-2 mb-2 border border-primary rounded">
+			<h3>{{_object_name_}} Velocities</h3>
+			<sai-interfaces-display labelOnTop key="{{_prefix_}}sensors::{{_object_name_}}::object_velocity"
+				display=" " />
+		</div>
+	</div>
+</div>

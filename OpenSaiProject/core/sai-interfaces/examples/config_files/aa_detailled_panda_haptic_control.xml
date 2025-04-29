@@ -1,0 +1,242 @@
+<!-- 
+<redisConfiguration> element. See the file aa_detailled_panda_simviz_only.xml for more details.
+-->
+<redisConfiguration namespacePrefix="sai::interfaces"
+	ip="127.0.0.1"
+	port="6379" />
+
+<!-- 
+<simvizConfiguration> element. See the file aa_detailled_panda_simviz_only.xml for more details.
+-->
+<simvizConfiguration worldFilePath="${WORLD_FILES_FOLDER}/world_panda.urdf">
+	<forceSensor robotOrObjectName="Panda"
+		linkName="end-effector"
+		filterCutoff="5.0" />
+</simvizConfiguration>
+
+<!-- 
+<robotControlConfiguration> element. See the file aa_detailled_panda_control_only.xml for more details.
+-->
+<robotControlConfiguration robotName="Panda"
+	robotModelFile="${SAI_MODEL_URDF_FOLDER}/panda/panda_arm_sphere.urdf">
+
+	<controller name="cartesian_controller">
+		<motionForceTask name="eef_task"
+			linkName="end-effector">
+
+			<velocitySaturation enabled="false" />
+			<otg type="disabled" />
+
+		</motionForceTask>
+
+		<jointTask name="nullspace_joint_task" />
+	</controller>
+</robotControlConfiguration>
+
+<!--
+The <hapticDeviceControlConfiguration> element contains the configuration for the haptic device control.
+There can be multiple <hapticDeviceControlConfiguration> elements in the configuration file, each one
+should correspond to a unique haptic device and a unique controlled robot task.
+The attributes of the <hapticDeviceControlConfiguration> element are:
+	- controlMode: the control mode of the haptic device. Possible values are "impedance" and "admittance". Default is "impedance".
+	- switchFunction: the function of the switch. Possible values are "clutch" and "orientationControl". Default is "clutch".
+		Clutch means that the switch is used to enable/disable the haptic control (move the haptic device without moving the robot).
+		OrientationControl means that the switch is used to switch between translation only, and translation plus orientation control.
+	- switchUsageType: the usage type of the switch. Possible values are "click" and "hold". Default is "click".
+	- orientationTeleopEnabled: whether the orientation teleoperation is enabled or not initially. Default is false.
+	- useSwitchToExitHoming: whether the switch should be used to exit the homing mode or if the homing mode is exited automatically. Default is true.
+	- controlFrequency: the control frequency of the haptic device control. Default is 1000.0 Hz.
+-->
+<hapticDeviceControlConfiguration controlMode="impedance"
+	switchFunction="clutch"
+	switchUsageType="click"
+	orientationTeleopEnabled="false"
+	useSwitchToExitHoming="true"
+	controlFrequency="1000.0">
+
+	<!--
+	The <controlledRobotTask> element contains the name of the robot, the name of the controller, and the name of the task that the haptic device should control.
+	One and only one is required per <hapticDeviceControlConfiguration> element.
+	Its attributes are:
+		- robotName: the name of the robot that the haptic device should control.
+		- controllerName: the name of the controller for that robot that contains the task the haptic device should control.
+		- taskName: the name of the task that the haptic device should control.
+	-->	
+	<controlledRobotTask robotName="Panda"
+		controllerName="cartesian_controller"
+		taskName="eef_task" />
+
+	<!--
+	The optional <baseFrame> element contains the position and orientation of the base frame of the haptic device with respect to the world frame.
+	The attributes of the <baseFrame> element are:
+		- xyz: the position of the base frame in the world frame. Default is "0 0 0".
+		- rpy: the orientation of the base frame in the world frame in radians. Default is "0 0 0".
+	-->
+	<baseFrame xyz="0 0 0"
+		rpy="0 0 0.5" />
+
+	<!--
+	The optional <logger> element contains the configuration for the logger.
+	Its attributes are:
+		- logFolderName: the name of the folder where the log files should be saved. Default is "log_files/haptic_controllers".
+		- logFrequency: the frequency at which the logger should log data. Default is 100 Hz.
+		- enabledAtStartup: whether the logger should be enabled at startup or not. Default is false.
+		- addTimestampToFilename: whether the timestamp should be added to the filename of the log files or not. Default is true.
+	-->
+	<logger logFolderName="log_files/haptic_controllers"
+		logFrequency="100"
+		enabledAtStartup="false"
+		addTimestampToFilename="true" />
+
+	<!--
+	The optional <homingMode> element contains the configuration for the homing mode.
+	Its attributes are:
+		- maxLinearVelocity: the homing maximum linear velocity of the haptic device in m/s. Default is 0.15.
+		- maxAngularVelocity: the homing maximum angular velocity of the haptic device in rad/s. Default is 3.1415927.
+	-->
+	<homingMode maxLinearVelocity="0.15"
+		maxAngularVelocity="3.1415927" />
+
+	<!--
+	The optional <impedanceMode> element contains the configuration for the impedance mode.
+	It is only used if the controlMode is set to "impedance".
+	-->
+	<impedanceMode>
+		<!--
+		The optional <virtualWorkspaceLimits> element contains the configuration for the virtual workspace limits.
+		The virtual workspace limits implements a virtual sphere in translation and a virtual cone in orientation.
+		The device is haptically contrained to stay inside the sphere and cone.
+		Its attributes are:
+			- enabled: whether the virtual workspace limits are enabled or not initially. Default is false.
+			- radius: the radius of the virtual workspace in meters. Default is 0.1.
+			- angle: the angle of the virtual workspace in radians. Default is 1.0471975512.
+		-->
+		<virtualWorkspaceLimits enabled="false"
+			radius="0.1"
+			angle="1.0471975512" />
+		<!--
+		The optional <scalingFactors> element contains the scaling factors for the impedance control.
+		It represents the ratio between the robot motion and the haptic device motion.
+		For example, a scaling factor of 2 means that 1cm od haptic device motion corresponds to 2cm of robot motion.
+		Its attributes are:
+			- linear: the linear scaling factor. Default is 1.0.
+			- angular: the angular scaling factor. Default is 1.0.
+		-->
+		<scalingFactors linear="1.0"
+			angular="1.0" />
+		<!--
+		The optional <variableDamping> element contains the variable damping parameters for the impedance control.
+		The variable damping is a piecewise damping function that depends on the linear and angular velocities of the haptic device.
+		The velocity thresholds and damping vectors needs to be the same size, to each value of the velocity corresponds a value of the damping, 
+		and the damping is interpolated linearly between the values, in function of the velocity.
+		If omitted, there is no damping in impedance mode.
+		For a constant value of damping, set the velocity threshold to a vector with only one value equal to 0.0, 
+		and the damping to a vector with only one value equal to the desired damping.
+		Its attributes are:
+			- linearVelocityThresholds: the linear velocity thresholds in m/s.
+			- linearDamping: the linear damping values in Ns/m.
+			- angularVelocityThresholds: the angular velocity thresholds in rad/s.
+			- angularDamping: the angular damping values in Nms.
+		-->
+		<variableDamping linearVelocityThresholds="0.1 0.3"
+			linearDamping="0.0 0.3"
+			angularVelocityThresholds="0.25 0.75"
+			angularDamping="0.0 0.1" />
+		<!--
+		The optional <forceFeedback> element contains the force feedback parameters for the impedance control.
+		Those parameters contain the reduction factor (factor between 0 and 1 that reduces the direct feedback force),
+		as well as the proxy parametrization (space dimension and axis) for the force and moment feedback.
+		The directions can either use proxy based feedback (the feedback force is computed from the position error between the haptic device and the robot),
+		or direct force feedback where the sensed robot force is provided as an input to the haptic controller.
+		Its attributes are:
+			- reductionFactorForce: the reduction factor for the force feedback. Default is 1.0.
+			- reductionFactorMoment: the reduction factor for the moment feedback. Default is 1.0.
+			- proxyForceSpaceDimension: the space dimension for the proxy force space 
+				(0 means direct force feedback in all directions, 3 means proxy based feedback in all directions). Default is 0.
+			- proxyMomentSpaceDimension: the space dimension for the proxy moment space. 
+				(0 means direct moment feedback in all directions, 3 means proxy based feedback in all directions). Default is 0.
+			- proxyForceAxis: the axis for the force feedback. Default is "0 0 1".
+			- proxyMomentAxis: the axis for the moment feedback. Default is "0 0 1".
+		-->
+		<forceFeedback reductionFactorForce="1.0"
+			reductionFactorMoment="1.0"
+			proxyForceSpaceDimension="0"
+			proxyMomentSpaceDimension="0"
+			proxyForceAxis="0 0 1"
+			proxyMomentAxis="0 0 1" />
+	</impedanceMode>
+
+	<!--
+	The optional <admittanceMode> element contains the configuration for the admittance mode.
+	It is only used if the controlMode is set to "admittance".
+	Its attributes are:
+		- linearAdmittanceFactor: the linear admittance factor that translates an applied force to a desired robot velocity. Default is 3e-5.
+		- angularAdmittanceFactor: the angular admittance factor that translates an applied moment to a desired robot angular velocity. Default is 1.5e-3.
+		- forceDeadband: the force deadband in N, corresponding to the amount of force under which no robot displacement is commanded. Default is 2.0.
+		- momentDeadband: the moment deadband in Nm, corresponding to the amount of moment under which no robot angular displacement is commanded. Default is 0.02.
+	-->
+	<admittanceMode linearAdmittanceFactor="3e-5"
+		angularAdmittanceFactor="1.5e-3"
+		forceDeadband="2.0"
+		momentDeadband="0.02" />
+
+	<!--
+	The optional <planeGuidance> element contains the configuration for the plane guidance.
+	Plane guidance constrains the haptic device and robot to move in a plane defined by a point and a normal.
+	Its attributes are:
+		- enabled: whether the plane guidance is enabled or not initially. Default is false.
+		- originToCurrentPosition: whether the origin of the plane is set to the current position of the haptic device when enabling, 
+			or if it uses the origin defined here. Default is true.
+		- origin: the origin of the plane in the world frame (if not using originToCurrentPosition). Default is "0 0 0".
+		- axis: the axis of the normal to plane in the world frame. Default is "0 0 1".
+	-->
+	<planeGuidance enabled="false"
+		originToCurrentPosition="true"
+		origin="0 0 0"
+		axis="0 0 1" />
+
+	<!--
+	The optional <lineGuidance> element contains the configuration for the line guidance.
+	Line guidance constrains the haptic device and robot to move along a line defined by a point and a direction.
+	Its attributes are:
+		- enabled: whether the line guidance is enabled or not initially. Default is false.
+		- originToCurrentPosition: whether the origin of the line is set to the current position of the haptic device when enabling, 
+			or if it uses the origin defined here. Default is true.
+		- origin: the origin of the line in the world frame (if not using originToCurrentPosition). Default is "0 0 0".
+		- axis: the axis of the line in the world frame. Default is "0 0 1".
+	-->
+	<lineGuidance enabled="false"
+		originToCurrentPosition="true"
+		origin="0 0 0"
+		axis="0 0 1" />
+
+	<!--
+	The optional <controlGains> element contains the control gains for the haptic device control.
+	Those are the gains used for the homing, proxy feedback in impedance mode and force field in admittance mode.
+	If not specified, the values are set to be a percentage of the device max stiffness and damping.
+	Its attributes are:
+		- kpPos: the proportional gain for the position control.
+		- kvPos: the derivative gain for the position control.
+		- kpOri: the proportional gain for the orientation control.
+		- kvOri: the derivative gain for the orientation control.
+	-->
+	<controlGains kpPos="1000.0"
+		kvPos="10.0"
+		kpOri="10.0"
+		kvOri="1.5" />
+
+	<!--
+	The optional <guidanceGains> element contains the guidance gains for the plane and line guidance, as well as the virtual workspace limits.
+	If not specified, the values are set to be a percentage of the device max stiffness and damping (higher than the controlGains).
+	Its attributes are:
+		- kpPos: the proportional gain for the position guidance.
+		- kvPos: the derivative gain for the position guidance.
+		- kpOri: the proportional gain for the orientation guidance.
+		- kvOri: the derivative gain for the orientation guidance.
+	-->
+	<guidanceGains kpPos="3000.0"
+		kvPos="20.0"
+		kpOri="20.0"
+		kvOri="3.5" />
+
+</hapticDeviceControlConfiguration>
