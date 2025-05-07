@@ -42,10 +42,10 @@ static const string robot_name = "panda_arm_hand";
 static const string camera_name = "camera_fixed";
 
 // dynamic objects information
-const vector<std::string> object_names = {"cup"};
-vector<Affine3d> object_poses;
-vector<VectorXd> object_velocities;
-const int n_objects = object_names.size();
+// const vector<std::string> object_names = {"cup"};
+// vector<Affine3d> object_poses;
+// vector<VectorXd> object_velocities;
+// const int n_objects = object_names.size();
 
 // simulation thread
 void simulation(std::shared_ptr<SaiSimulation::SaiSimulation> sim);
@@ -85,10 +85,10 @@ int main() {
 	sim->setJointVelocities(robot_name, robot->dq());
 
 	// fill in object information 
-	for (int i = 0; i < n_objects; ++i) {
-		object_poses.push_back(sim->getObjectPose(object_names[i]));
-		object_velocities.push_back(sim->getObjectVelocity(object_names[i]));
-	}
+	// for (int i = 0; i < n_objects; ++i) {
+	// 	object_poses.push_back(sim->getObjectPose(object_names[i]));
+	// 	object_velocities.push_back(sim->getObjectVelocity(object_names[i]));
+	// }
 
     // set co-efficient of restition to zero for force control
     sim->setCollisionRestitution(0.0);
@@ -111,9 +111,9 @@ int main() {
         graphics->updateRobotGraphics(robot_name, redis_client.getEigen(JOINT_ANGLES_KEY));
 		{
 			lock_guard<mutex> lock(mutex_update);
-			for (int i = 0; i < n_objects; ++i) {
-				graphics->updateObjectGraphics(object_names[i], object_poses[i]);
-			}
+			// for (int i = 0; i < n_objects; ++i) {
+			// 	graphics->updateObjectGraphics(object_names[i], object_poses[i]);
+			// }
 		}
 		graphics->renderGraphicsWorld();
 		{
@@ -158,11 +158,11 @@ void simulation(std::shared_ptr<SaiSimulation::SaiSimulation> sim) {
 
 		// update object information 
 		{
-			lock_guard<mutex> lock(mutex_update);
-			for (int i = 0; i < n_objects; ++i) {
-				object_poses[i] = sim->getObjectPose(object_names[i]);
-				object_velocities[i] = sim->getObjectVelocity(object_names[i]);
-			}
+			// lock_guard<mutex> lock(mutex_update);
+			// for (int i = 0; i < n_objects; ++i) {
+			// 	object_poses[i] = sim->getObjectPose(object_names[i]);
+			// 	object_velocities[i] = sim->getObjectVelocity(object_names[i]);
+			// }
 		}
 	}
 	timer.stop();

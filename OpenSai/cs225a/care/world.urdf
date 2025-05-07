@@ -27,6 +27,16 @@
 	</static_object>
 
 
+	<static_object name="human">
+		<origin xyz="1.0 0.0 -0.25" rpy="1.5708  0 -1.5708" />
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="${CS225A_URDF_FOLDER}/meshes/human.obj" scale="0.075 0.075 0.075"  />
+			</geometry>
+		</visual>
+	</static_object>
+
 	<light name="light1" type="directional">
 		<position xyz="2.0 -2.0 2.0" />
 		<lookat xyz="0.0 0.0 0.0" />
