@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Sai Interface UI</title>
+
+	<!-- Global and utility stylesheets -->
+	<link rel="stylesheet" href="./css/picnic.min.css" type="text/css">
+	<link rel="stylesheet" href="./css/range_input.css" type="text/css">
+	<link rel="stylesheet" href="./css/global_styles.css" type="text/css">
+	<link rel="stylesheet" href="./css/chosen.min.css" type="text/css">
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+
+	<!-- External library includes -->
+	<script src="./js/library/jquery-3.3.1.min.js" type="text/javascript"></script>
+	<script src="./js/library/chosen.jquery.min.js" type="text/javascript"></script>
+	<script src="./js/library/plotly.min.js" type="text/javascript"></script>
+	<script src="./js/library/socket.io.js" type="text/javascript"></script>
+	<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- global execution scripts -->
+	<script type="module" src="./js/index.js"></script>
+</head>
+
+<body>
+	<div class="row my-3 justify-content-center">
+		<div class="col-6">
+			<sai-interfaces-config-selector config_key="::sai-interfaces-webui::config_file_name"
+				reset_key="::sai-interfaces-webui::reset" />
+		</div>
+		<div class="col-auto">
+			<sai-interfaces-plot-button />
+		</div>
+	</div>
+
+<div class='row mx-3'>
+<sai-interfaces-tabs name='Robot_names282475249' color='#b30000'>
+<sai-interfaces-tab-content name='Panda'>
+<div class='row my-3'>
+<sai-interfaces-robot-controller robotName='Panda'
+redisPrefix='opensai'
+controllerNames='["cartesian_controller", "joint_controller"]'
+controllerTaskNames='[["cartesian_task", "joint_task"], ["joint_task"]]'
+controllerTaskTypes='[["motion_force_task", "joint_task"], ["joint_task"]]'
+controllerTaskSelections='[[[], []], [[]]]'
+lowerJointLimits='[-2.897300,-1.762800,-2.897300,-3.071800,-2.897300,-0.017500,-2.897300]'
+upperJointLimits='[2.897300,1.762800,2.897300,-0.069800,2.897300,3.752500,2.897300]'
+jointNames='["joint1", "joint2", "joint3", "joint4", "joint5", "joint6", "joint7"]'
+minGoalPositions=[[[-0.7,-0.7,0.0],[]],[[]]]
+maxGoalPositions=[[[0.7,0.7,0.9],[]],[[]]]
+minDesiredForces=[[-50,[]],[[]]]
+maxDesiredForces=[[50,[]],[[]]]
+minDesiredMoments=[[-5,[]],[[]]]
+maxDesiredMoments=[[5,[]],[[]]] />
+</div>
+</sai-interfaces-tab-content>
+<sai-interfaces-tab-content name='Simviz'>
+<div class='row my-3'>
+<sai-interfaces-simviz
+redisPrefix='opensai'
+modelNames='["Panda","Box"]'
+modelTypes='["robot","object"]' />
+</div>
+</sai-interfaces-tab-content>
+</sai-interfaces-tabs>
+</div>
+</body>
+
+</html>
