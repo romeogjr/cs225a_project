@@ -15,7 +15,7 @@
 				<box size="5 5 0.0127" />
 	        </geometry>
 	        <material name="material">
-		        <color rgba="0.1 0.1 0.1 1.0" />
+		        <color rgba="0.3 0.3 0.3 1.0" />
 	        </material>
 	    </visual>
 		<collision>
@@ -28,13 +28,51 @@
 
 
 	<static_object name="human">
-		<origin xyz="1.0 0.0 -0.25" rpy="1.5708  0 -1.5708" />
+		<origin xyz="0.5 0.25 -0.35" rpy="1.5708  0 0" />
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
 				<mesh filename="${CS225A_URDF_FOLDER}/meshes/human.obj" scale="0.075 0.075 0.075"  />
 			</geometry>
 		</visual>
+	</static_object>
+
+	<static_object name="chair">
+		<origin xyz="0.5 0.25 0.1" rpy="0 0 0" />
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<box size="0.5 0.3 0.6" />
+			</geometry>
+			<material name="chair_color">
+				<color rgba="1 0 0 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<box size="0.5 0.3 0.6" />
+			</geometry>
+		</collision>
+	</static_object>
+
+	<static_object name="torso">
+		<origin xyz="0.5 0.25 0.6" rpy="0 0 0" />
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<box size="0.3 0.15 0.5" />
+			</geometry>
+			<material name="torso_color">
+				<color rgba="0 1 0 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<box size="0.3 0.15 0.5" />
+			</geometry>
+		</collision>
 	</static_object>
 
 	<light name="light1" type="directional">
