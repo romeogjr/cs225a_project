@@ -8,6 +8,7 @@
 #include "SaiPrimitives.h"
 #include "redis/RedisClient.h"
 #include "timer/LoopTimer.h"
+#include <Eigen/Geometry>
 
 #include <iostream>
 #include <string>
@@ -25,7 +26,9 @@ void sighandler(int){runloop = false;}
 // States 
 enum State {
 	POSTURE = 0, 
-	MOTION
+	INITIAL_ROTATION,	
+	INITIAL_APPROACH, 
+	RETRACT
 };
 
 int main() {
@@ -53,40 +56,31 @@ int main() {
 
 	// prepare controller
 	int dof = robot->dof();
-	VectorXd command_torques = VectorXd::Zero(dof);  // panda + gripper torques 
+	VectorXd command_torques = VectorXd::Zero(dof);  // panda torques 
 	MatrixXd N_prec = MatrixXd::Identity(dof, dof);
 
-	// arm task
+	// Postion of EE intilization 
 	const string control_link = "link7";
-	const Vector3d control_point = Vector3d(0, 0, 0.07);
+	// Will change later on
+	const Vector3d control_point = Vector3d(0.0, 0.0, 0.07); // change based on sponge?
 	Affine3d compliant_frame = Affine3d::Identity();
 	compliant_frame.translation() = control_point;
 	auto pose_task = std::make_shared<SaiPrimitives::MotionForceTask>(robot, control_link, compliant_frame);
+	// Will tune depending on the task
 	pose_task->setPosControlGains(400, 40, 0);
 	pose_task->setOriControlGains(400, 40, 0);
 
 	Vector3d ee_pos;
 	Matrix3d ee_ori;
 
-	// gripper partial joint task 
-	MatrixXd gripper_selection_matrix = MatrixXd::Zero(2, robot->dof());
-	gripper_selection_matrix(0, 7) = 1;
-	gripper_selection_matrix(1, 8) = 1;
-	auto gripper_task = std::make_shared<SaiPrimitives::JointTask>(robot, gripper_selection_matrix);
-	gripper_task->setDynamicDecouplingType(SaiPrimitives::DynamicDecouplingType::IMPEDANCE);
-	double kp_gripper = 5e3;
-	double kv_gripper = 1e2;
-	gripper_task->setGains(kp_gripper, kv_gripper, 0);
-	gripper_task->setGains(kp_gripper, kv_gripper, 0);
-
 	// joint task
 	auto joint_task = std::make_shared<SaiPrimitives::JointTask>(robot);
 	joint_task->setGains(400, 40, 0);
 
 	VectorXd q_desired(dof);
-	q_desired.head(7) << -30.0, -15.0, -15.0, -105.0, 0.0, 90.0, 45.0;
-	q_desired.head(7) *= M_PI / 180.0;
-	q_desired.tail(2) << 0.04, -0.04;
+	q_desired << -30.0, -15.0, -15.0, -105.0, 0.0, 90.0, 45.0;
+	q_desired *= M_PI / 180.0;
+
 	joint_task->setGoalPosition(q_desired);
 
 	// create a loop timer
@@ -113,28 +107,92 @@ int main() {
 			if ((robot->q() - q_desired).norm() < 1e-2) {
 				cout << "Posture To Motion" << endl;
 				pose_task->reInitializeTask();
-				gripper_task->reInitializeTask();
 				joint_task->reInitializeTask();
 
-				ee_pos = robot->position(control_link, control_point);
-				ee_ori = robot->rotation(control_link);
+				// ee_pos = robot->position(control_link, control_point);
+				
+				
 
-				pose_task->setGoalPosition(ee_pos - Vector3d(-0.1, -0.1, 0.1));
-				pose_task->setGoalOrientation(AngleAxisd(M_PI / 6, Vector3d::UnitX()).toRotationMatrix() * ee_ori);
-				gripper_task->setGoalPosition(Vector2d(0.02, -0.02));
+				// pose_task->setGoalPosition(ee_pos - Vector3d(-0.1, -0.1, 0.1));
+				// pose_task->setGoalOrientation(AngleAxisd(M_PI / 6, Vector3d::UnitX()).toRotationMatrix() * ee_ori);
 
-				state = MOTION;
+				state = INITIAL_ROTATION;
 			}
-		} else if (state == MOTION) {
+
+		} else if (state == INITIAL_ROTATION) {
 			// update goal position and orientation
 
-			// update task model
-			N_prec.setIdentity();
-			pose_task->updateTaskModel(N_prec);
-			gripper_task->updateTaskModel(pose_task->getTaskAndPreviousNullspace());
-			joint_task->updateTaskModel(gripper_task->getTaskAndPreviousNullspace());
+		
 
-			command_torques = pose_task->computeTorques() + gripper_task->computeTorques() + joint_task->computeTorques();
+
+			// align sponge cylinder axis (local Z) to world Y (faces XZ plane)
+			Eigen::Matrix3d sponge_ori = Eigen::AngleAxisd(-M_PI/2, Vector3d::UnitX()).toRotationMatrix();
+			pose_task->setGoalOrientation(sponge_ori);
+			
+			
+	
+
+			// align sponge cylinder axis (local Z) to world Y (faces XZ plane)
+			
+
+			N_prec.setIdentity();
+			// set pose task as priority 1
+			pose_task->updateTaskModel(N_prec);
+			// secondary priority: joint task in nullspace of pose
+			joint_task->updateTaskModel(pose_task->getTaskAndPreviousNullspace());
+
+			// set priority 1 as velocity saturation
+			// set priority 2 as posture
+
+			command_torques = pose_task->computeTorques() + joint_task->computeTorques();
+
+			// check if orientation goal reached
+			ee_ori = robot->rotation(control_link);
+			if ((ee_ori - sponge_ori).norm() < 1e-2) {
+				cout << "Orientation Achieved" << endl;
+				state = INITIAL_APPROACH;
+				pose_task->reInitializeTask();
+				joint_task->reInitializeTask();
+			}
+		} else if (state == INITIAL_APPROACH) {
+			// update goal position and orientation
+
+			Vector3d ee_pos_desired;
+			ee_pos_desired << 0.5, 0.175, 0.6;
+
+			Vector3d ee_ori_desired;
+			ee_ori_desired << 0.0, 0.0, 1.5708;
+			
+			
+			pose_task->setGoalPosition(ee_pos_desired);
+
+			// align sponge cylinder axis (local Z) to world Y (faces XZ plane)
+			
+
+			N_prec.setIdentity();
+			// set pose task as priority 1
+			pose_task->updateTaskModel(N_prec);
+			// secondary priority: joint task in nullspace of pose
+			joint_task->updateTaskModel(pose_task->getTaskAndPreviousNullspace());
+
+			// set priority 1 as velocity saturation
+			// set priority 2 as posture
+
+			command_torques = pose_task->computeTorques() + joint_task->computeTorques();
+
+
+
+		} else if (state == RETRACT) {
+			// update task model 
+			N_prec.setIdentity();
+			joint_task->updateTaskModel(N_prec);
+
+			command_torques = joint_task->computeTorques();
+
+			if ((robot->q() - q_desired).norm() < 1e-2) {
+				cout << "Motion To Posture" << endl;
+				state = POSTURE;
+			}
 		}
 
 		// execute redis write callback

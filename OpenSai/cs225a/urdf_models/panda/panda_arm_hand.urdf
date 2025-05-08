@@ -144,68 +144,31 @@
           <mesh filename="meshes/collision/link7.obj"/>
         </geometry>
       </collision> -->
-      <visual>
-        <origin xyz="0 0 0.107" rpy="0 0 -0.78539816339" />
-        <geometry>
-          <mesh filename="meshes/visual/hand.obj"/>
-        </geometry>
-      </visual>
-<!--       <collision>
-        <origin xyz="0 0 0.107" rpy="0 0 -0.78539816339" />
-        <geometry>
-          <mesh filename="meshes/collision/hand.obj"/>
-        </geometry>
-      </collision> -->
     </link>
-    <link name="leftfinger">
+
+    <link name="sponge">
       <inertial>
-        <origin xyz="0 0 0.05" rpy="0 -0 0" />
+        <origin xyz="0 0 0" rpy="0 -0 0" />
         <mass value="0.1" />
-        <inertia ixx="0.01" iyy="0.01" izz="0.005" ixy="0" ixz="0" iyz="0" />
+        <inertia ixx="0.01" iyy="0.01" izz="0.01" ixy="0" ixz="0" iyz="0" />
       </inertial>
       <visual>
-        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="meshes/visual/finger.obj"/>
+          <cylinder length="0.03" radius="0.05"/>
         </geometry>
+        <material name="sponge_color">
+          <color rgba="1 1 0 1"/>
+        </material>
       </visual>
       <collision>
-        <origin xyz="0 0.005 0.043" rpy="0 0 0" />
-          <geometry>
-            <box size="0.02 0.01 0.02"/>
-          </geometry>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <geometry>
+          <cylinder length="0.03" radius="0.05"/>
+        </geometry>
       </collision>
-<!--       <collision>
-        <geometry>
-          <mesh filename="meshes/collision/finger.obj"/>
-        </geometry>
-      </collision> -->
     </link>
-    <link name="rightfinger">
-      <inertial>
-        <origin xyz="0 0 0.05" rpy="0 -0 0" />
-        <mass value="0.1" />
-        <inertia ixx="0.01" iyy="0.01" izz="0.005" ixy="0" ixz="0" iyz="0" />
-      </inertial>
-      <visual>
-        <origin xyz="0 0 0" rpy="0 0 3.14159265359" />
-        <geometry>
-          <mesh filename="meshes/visual/finger.obj"/>
-        </geometry>
-      </visual>
-      <collision>
-        <origin xyz="0 -0.005 0.043" rpy="0 0 0" />
-          <geometry>
-            <box size="0.02 0.01 0.02"/>
-          </geometry>
-      </collision>
-<!--       <collision>
-        <origin xyz="0 0 0" rpy="0 0 3.14159265359" />
-        <geometry>
-          <mesh filename="meshes/collision/finger.obj"/>
-        </geometry>
-      </collision> -->
-    </link>
+
     <joint name="joint1" type="revolute">
       <origin rpy="0 0 0" xyz="0 0 0.333"/>
       <parent link="link0"/>
@@ -258,20 +221,9 @@
       <axis xyz="0 0 1"/>
       <limit effort="12" lower="-2.8973" upper="2.8973" velocity="2.6100"/>
     </joint>
-    <joint name="finger_joint1" type="prismatic">
+    <joint name="sponge" type="fixed">
+      <origin rpy="0 0 0" xyz="0 0 0"/>
       <parent link="link7"/>
-      <child link="leftfinger"/>
-      <origin xyz="0 0 0.1654" rpy="0 0 -0.78539816339"/>
-      <axis xyz="0 1 0"/>
-      <calibration falling="0.04" />
-      <limit effort="20" lower="0.0" upper="0.04" velocity="0.2"/>
-    </joint>
-    <joint name="finger_joint2" type="prismatic">
-      <parent link="link7"/>
-      <child link="rightfinger"/>
-      <origin xyz="0 0 0.1654" rpy="0 0 -0.78539816339"/>
-      <axis xyz="0 1 0"/>
-      <calibration falling="-0.04" />
-      <limit effort="20" lower="-0.04" upper="0" velocity="0.2"/>
+      <child link="sponge"/>
     </joint>
 </robot>
