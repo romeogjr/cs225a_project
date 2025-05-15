@@ -30,8 +30,11 @@
 	 INITIAL_APPROACH1, 
 	 INITIAL_APPROACH2,
 	 CLEAN_1, 
-	 RETRACT
+	 RETRACT, 
+	 STOP
  };
+
+ int prev_state = -1;
  
  int main() {
 	 // Location of URDF files specifying world and robot information
@@ -148,7 +151,7 @@
  
 			 // 1) set your desired goal
 			 Vector3d ee_pos_desired;
-			 ee_pos_desired << 0.5, 0.0, 0.6;
+			 ee_pos_desired << 0.5, 0.05, 0.6;
 			 pose_task->setGoalPosition(ee_pos_desired);
  
 			 // 2) turn on velocity saturation (linear , angular )
@@ -175,35 +178,32 @@
 				pose_task -> disableVelocitySaturation();
 				pose_task->reInitializeTask();
 				joint_task->reInitializeTask();
+				prev_state = state;
 				state = INITIAL_APPROACH2;
 				
 			 }
 
 			} else if (state == INITIAL_APPROACH2) {
-				// update goal position and orientation
-	
-				// 1) set your desired goal
-				Vector3d ee_pos_desired;
-				ee_pos_desired << 0.5, 0.175, 0.6;
-				pose_task->setPosControlGains(0.0, 0.0, 0.0);
-	
-				// 2) set linear velocity only towards human (along y)
-				pose_task->setGoalLinearVelocity(Eigen::Vector3d(0.0, 0.05, 0.0));
-	
-				// 3) build your task hierarchy as usual
+				pose_task->setPosControlGains(0.0, 40.0, 0.0);
+				pose_task->setGoalLinearVelocity(Eigen::Vector3d(0.0, 0.01, 0.0));
+
 				N_prec.setIdentity();
 				pose_task->updateTaskModel(N_prec);
 				joint_task->updateTaskModel(pose_task->getTaskAndPreviousNullspace());
-	
-				// 4) compute torques (now with sat’d vels)
+
 				command_torques = pose_task->computeTorques() + joint_task->computeTorques();
-	
+
 				// Print position				
+				Vector3d ee_curr_vel= robot->linearVelocity(control_link, control_point);
 				Vector3d ee_pos_current = robot->position(control_link, control_point);
-	
-				const double thresh = 1e-2;  // 1 cm on XY maybe?
-				if (abs(ee_pos_current.y() - 0.175) < thresh) {
+				cout << "INITIAL_APPROACH2 | Current:  "
+				 << ee_pos_current.transpose()  
+				 << ee_curr_vel.transpose() << endl;
+
+				const double thresh = 1e-3;  // 1 cm on XY maybe?
+				if (abs(ee_curr_vel.y()) < thresh) {
 					cout << "Aligned at center height—starting CLEAN_1\n";
+					prev_state = state;
 					state = CLEAN_1;
 					// reset tasks here
 					clean1_start_time = -1.0;
@@ -218,33 +218,44 @@
 			 }
 			 double t_elapsed = time - clean1_start_time;
  
-			 // ■ torso & sponge geometry (from your URDF)
+			 // get these points from redis keys
 			 const double torso_center_z    = 0.6;     // from <origin xyz=…>
 			 const double torso_half_height = 0.5 / 2; // box size z = 0.5
-			 const double sponge_length     = 0.03;    // cylinder length
-			 const double sponge_half_len   = sponge_length / 2;
  
 			 // ■ compute amplitude so sponge never crosses top/bottom
-			 double amplitude_z = torso_half_height - sponge_half_len;
+			 double amplitude_z = torso_half_height/2;
  
 			 // ■ pick a frequency (e.g. 0.2 Hz ⇒ one full up+down every 5 s)
-			 const double freq1  = 0.02;
+			 const double freq1  = .20;
 			 double omega = 2.0 * M_PI * freq1;
-
-			 const double freq2 = 0.5;	
-			 double omega2 = 2.0 * M_PI * freq2;
  
 			 // ■ desired Z = center + amplitude * sin(ω t)
 			 double z_des = torso_center_z + amplitude_z * sin(omega * t_elapsed);
-			 //double x_des = torso_center_z + amplitude_z * sin(omega2 * t_elapsed);
+			//  double zdot_des = amplitude_z * cos(omega * t_elapsed) * omega;
+			//  double zdotdot_des = -amplitude_z * sin(omega * t_elapsed) * omega * omega;
+
+	 		double y_des = 0.173; // 0.173 is the position slightly into the human, depth of sponge + y (cm)
  
 			 // ■ build the full 3D goal (keep your contact Y fixed)
-			 Vector3d ee_cur = robot->position(control_link, control_point);
+			 Vector3d ee_cur_pos = robot->position(control_link, control_point);
+			 Vector3d ee_cur_vel = robot->linearVelocity(control_link, control_point);
 			 Vector3d goal;
-			 goal << ee_cur.x(), ee_cur.y(), z_des;
+			 goal << ee_cur_pos.x(), ee_cur_pos.y(), z_des;
+
+			VectorXd kp_gain_orientation(3);
+			 kp_gain_orientation << 10.0, 400.0, 10.0;
+			 VectorXd kv_gain_orientation = VectorXd::Constant(3, 10.0);
+			 VectorXd ki_gain_orientation = VectorXd::Zero(3);
+			 pose_task->setOriControlGains(kp_gain_orientation, kv_gain_orientation, ki_gain_orientation);
+
+			 VectorXd kp_gain(3);
+			 kp_gain << 400.0, 10.0, 400.0;
+			 VectorXd kv_gain = VectorXd::Constant(3, 10.0);
+			 VectorXd ki_gain = VectorXd::Zero(3);
+			 pose_task->setPosControlGains(kp_gain, kv_gain, ki_gain);
 			 pose_task->setGoalPosition(goal);
-			 pose_task->setPosControlGains(400.0, 40.0, 0.0);
-			 
+			 //pose_task->setGoalLinearVelocity(Eigen::Vector3d(ee_cur_vel.x(), ee_cur_vel.y(), zdot_des));
+			 //pose_task->setGoalLinearAcceleration(Vector3d(0.0, 0.0, zdotdot_des));
  
 			 // ■ task hierarchy + torque
 			 N_prec.setIdentity();
@@ -254,31 +265,80 @@
 							 + joint_task->computeTorques();
  
 			 // ■ debug print
-			 cout << "CLEAN_1 | z_cur=" << ee_cur.z()
+			 cout << "CLEAN_1 | z_cur=" << ee_cur_pos.z()
 				 << " z_des=" << z_des
-				 << " err=" << fabs(ee_cur.z()-z_des) << endl;
+				 << " err=" << fabs(ee_cur_pos.z()-z_des) << endl;
  
 			 // ■ after 15 s, go to RETRACT
-			 if (t_elapsed > 15.0) {
+			 if (t_elapsed > 10.0) {
 				 cout << "CLEAN_1 complete, switching to RETRACT\n";
 				 state = RETRACT;
 				 pose_task->reInitializeTask();
 				 joint_task->reInitializeTask();
 			 }
-
- 
  
 		 } else if (state == RETRACT) {
-			 // update task model 
+			 // 1) set your desired goal
+			 Vector3d ee_cur_pos = robot->position(control_link, control_point);
+			 Vector3d ee_pos_desired;
+			 ee_pos_desired << ee_cur_pos.x(), 0.125, ee_cur_pos.z();
+			 pose_task->setGoalPosition(ee_pos_desired);
+ 
+			 // 2) turn on velocity saturation (linear , angular )
+			 pose_task->enableVelocitySaturation(0.1, 0.5);
+ 
+			 // 3) build your task hierarchy as usual
 			 N_prec.setIdentity();
-			 joint_task->updateTaskModel(N_prec);
+			 pose_task->updateTaskModel(N_prec);
+			 joint_task->updateTaskModel(pose_task->getTaskAndPreviousNullspace());
  
-			 command_torques = joint_task->computeTorques();
+			 // 4) compute torques (now with sat’d vels)
+			 command_torques = pose_task->computeTorques() + joint_task->computeTorques();
  
-			 if ((robot->q() - q_desired).norm() < 1e-2) {
-				 cout << "Motion To Posture" << endl;
-				 state = POSTURE;
+			 // Print position				
+			 Vector3d ee_pos_current = robot->position(control_link, control_point);
+			 cout << "INITIAL_APPROACH1 | Current:  "
+				 << ee_pos_current.transpose()
+				 << "  Desired:  " << ee_pos_desired.transpose() 
+				 << "  Err: " << (ee_pos_current - ee_pos_desired).norm()
+				 << endl;
+ 
+			 const double thresh = 1e-2;  // 1 cm on XY maybe?
+			 if ((ee_pos_current - ee_pos_desired).norm() < thresh) {
+				pose_task -> disableVelocitySaturation();
+				pose_task->reInitializeTask();
+				joint_task->reInitializeTask();
+				prev_state = state;
+				state = STOP;
+				
 			 }
+		 }
+
+		 else if (state == STOP) {
+			if (clean1_start_time < 0.0) {
+				clean1_start_time = time;
+			}
+			double t_elapsed = time - clean1_start_time;
+
+			Vector3d ee_curr = robot->position(control_link, control_point);
+			pose_task->setGoalPosition(ee_curr);
+
+			// Build task and compute torques to hold pose
+			N_prec.setIdentity();
+			pose_task->updateTaskModel(N_prec);
+			joint_task->updateTaskModel(pose_task->getTaskAndPreviousNullspace());
+
+			command_torques = pose_task->computeTorques() + joint_task->computeTorques();
+
+			const double thresh = 1e-2;  // 1 cm on XY maybe?
+			if (t_elapsed > 2.0) {
+				cout << "STOP, moving to next state\n";
+				state = INITIAL_APPROACH2;
+				// reset tasks here
+				clean1_start_time = -1.0;
+				pose_task->reInitializeTask();
+				joint_task->reInitializeTask();
+			}
 		 }
  
 		 // execute redis write callback
