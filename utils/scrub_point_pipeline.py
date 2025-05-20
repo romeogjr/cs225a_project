@@ -6,6 +6,9 @@ import numpy as np
 import cv2
 import pyrealsense2 as rs
 import mediapipe as mp
+import redis
+
+EE_POS_DESIRED_KEY = "sai::controller::ee_pos_desired"
 
 # --- MediaPipe setup ---
 mp_pose = mp.solutions.pose
@@ -112,6 +115,32 @@ def get_torso_grid_with_depth(num_columns=9, num_rows=5, wait_time=3):
     cv2.destroyAllWindows()
     return selected
 
+def publish_xyz_as_eigen(selected_points,
+                         pick_index=0,
+                         host="localhost",
+                         port=6379,
+                         db=0):
+    """
+    Picks one (x,y,z) from selected_points, converts to an Eigen-style 
+    space-separated string "x y z", and SETs it into Redis so that
+    C++ RedisClient.getEigen() will parse it as Vector3d.
+    """
+    if not selected_points:
+        print("[publish_xyz_as_eigen] no points to publish")
+        return
+
+    x, y, z = selected_points[pick_index]
+    # format with enough precision
+    val = f"{x:.6f} {y:.6f} {z:.6f}"
+
+    r = redis.Redis(host=host, port=port, db=db)
+    r.set(EE_POS_DESIRED_KEY, val)
+    print(f"[publish_xyz_as_eigen] SET {EE_POS_DESIRED_KEY} = '{val}'")
+
+
 if __name__ == "__main__":
     pts_3d = get_torso_grid_with_depth()
     print(pts_3d)
+
+    # Publish the first point as an Eigen::Vector3d
+    publish_xyz_as_eigen(pts_3d, pick_index=0)

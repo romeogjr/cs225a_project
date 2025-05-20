@@ -150,8 +150,7 @@
 			 // update goal position and orientation
  
 			 // 1) set your desired goal
-			 Vector3d ee_pos_desired;
-			 ee_pos_desired << 0.5, 0.05, 0.6;
+			 Vector3d ee_pos_desired = redis_client.getEigen(EE_POS_DESIRED_KEY);
 			 pose_task->setGoalPosition(ee_pos_desired);
  
 			 // 2) turn on velocity saturation (linear , angular )
