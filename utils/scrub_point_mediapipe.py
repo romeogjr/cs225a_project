@@ -62,6 +62,7 @@ def get_torso_landmarks_and_grid(num_columns=9, num_rows=5, wait_time=3):
                     n=num_columns,
                     m=num_rows
                 )
+                print(grid)
                 cap.release()
                 return coords, grid, frame  # Return the captured frame as well
 
