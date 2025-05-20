@@ -38,7 +38,7 @@ VectorXd ui_torques;
 mutex mutex_torques, mutex_update;
 
 // specify urdf and robots 
-static const string robot_name = "panda_arm_hand";
+static const string robot_name = "panda_arm_sponge";
 static const string camera_name = "camera_fixed";
 
 // dynamic objects information
@@ -52,7 +52,7 @@ void simulation(std::shared_ptr<SaiSimulation::SaiSimulation> sim);
 
 int main() {
 	SaiModel::URDF_FOLDERS["CS225A_URDF_FOLDER"] = string(CS225A_URDF_FOLDER);
-	static const string robot_file = string(CS225A_URDF_FOLDER) + "/panda/panda_arm_hand.urdf";
+	static const string robot_file = string(CS225A_URDF_FOLDER) + "/panda/panda_arm_sponge.urdf";
 	static const string world_file = string(PANDA_FOLDER) + "/world.urdf";
 	std::cout << "Loading URDF world model file: " << world_file << endl;
 

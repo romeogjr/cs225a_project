@@ -2,8 +2,8 @@
 
 <world name="demo_world" gravity="0.0 0.0 -9.81">
 
-	<robot name="panda_arm_hand">
-		<model dir="${CS225A_URDF_FOLDER}/panda" path="panda_arm_hand.urdf" name="panda_arm_hand" />
+	<robot name="panda_arm_sponge">
+		<model dir="${CS225A_URDF_FOLDER}/panda" path="panda_arm_sponge.urdf" name="panda_arm_sponge" />
 		<origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
 	</robot>
 
@@ -28,7 +28,7 @@
 
 
 	<static_object name="human">
-		<origin xyz="0.5 0.25 -0.35" rpy="1.5708  0 0" />
+		<origin xyz="0.5 -0.25 -0.55" rpy="1.5708  0 3.1415" />
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
@@ -38,11 +38,11 @@
 	</static_object>
 
 	<static_object name="chair">
-		<origin xyz="0.5 0.25 0.1" rpy="0 0 0" />
+		<origin xyz="0.5 -0.25 0.1" rpy="0 0 0" />
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<box size="0.5 0.3 0.6" />
+				<box size="0.5 0.3 0.4" />
 			</geometry>
 			<material name="chair_color">
 				<color rgba="1 0 0 1" />
@@ -51,17 +51,17 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<box size="0.5 0.3 0.6" />
+				<box size="0.5 0.3 0.4" />
 			</geometry>
 		</collision>
 	</static_object>
 
 	<static_object name="torso">
-		<origin xyz="0.5 0.25 0.6" rpy="0 0 0" />
+		<origin xyz="0.5 -0.25 0.5" rpy="0 0 0" />
 		<visual>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<box size="0.3 0.15 0.5" />
+				<box size="0.3 0.15 0.4" />
 			</geometry>
 			<material name="torso_color">
 				<color rgba="0 1 0 1" />
@@ -70,7 +70,7 @@
 		<collision>
 			<origin xyz="0 0 0" rpy="0 0 0" />
 			<geometry>
-				<box size="0.3 0.15 0.5" />
+				<box size="0.3 0.15 0.4" />
 			</geometry>
 		</collision>
 	</static_object>
@@ -86,7 +86,7 @@
 	</light>
 
 	<camera name="camera_fixed">
-		<position xyz="0 -2 2.5" />
+		<position xyz="0 2 2.5" />
 		<vertical xyz="0.0 0.0 1.0" />
 		<lookat xyz="0 0 0.5" />
 	</camera>

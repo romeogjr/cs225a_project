@@ -1,0 +1,27 @@
+<redisConfiguration namespacePrefix="opensai" />
+
+<simvizConfiguration
+
+	worldFilePath="${WORLD_FILES_FOLDER}/world_single_panda.urdf">
+
+	<simParameters frictionCoefficient="0.5" />
+
+	<logger logFolderName="log_files/single_panda_scrub/simviz"
+		enabledAtStartup="true"
+		addTimestampToFilename="true" />
+
+	<forceSensor robotOrObjectName="panda_arm_sponge"
+		linkName="end-effector"
+		filterCutoff="5.0" />
+		
+</simvizConfiguration>
+
+<robotControlConfiguration robotName="panda_arm_sponge"
+
+	robotModelFile="${SAI_MODEL_URDF_FOLDER}/panda/panda_arm_sponge.urdf">
+
+	<logger logFolderName="log_files/single_panda_scrub/controllers"
+		enabledAtStartup="true"
+		addTimestampToFilename="true" />
+
+</robotControlConfiguration>

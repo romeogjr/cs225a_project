@@ -38,7 +38,7 @@
  
  int main() {
 	 // Location of URDF files specifying world and robot information
-	 static const string robot_file = string(CS225A_URDF_FOLDER) + "/panda/panda_arm_hand.urdf";
+	 static const string robot_file = string(CS225A_URDF_FOLDER) + "/panda/panda_arm_sponge.urdf";
  
 	 // initial state 
 	 int state = POSTURE;
@@ -83,7 +83,7 @@
 	 joint_task->setGains(400, 40, 0);
  
 	 VectorXd q_desired(dof);
-	 q_desired << -30.0, -15.0, -15.0, -105.0, 0.0, 90.0, 45.0;
+	 q_desired << 30.0, -5.0, -10.0, -100.0, 0.0, 90.0, 90.0;
 	 q_desired *= M_PI / 180.0;
  
 	 joint_task->setGoalPosition(q_desired);
@@ -123,7 +123,7 @@
 			 // update goal position and orientation
  
 			 // align sponge cylinder axis (local Z) to world Y (faces XZ plane)
-			 Eigen::Matrix3d sponge_ori = Eigen::AngleAxisd(-M_PI/2, Vector3d::UnitX()).toRotationMatrix();
+			 Eigen::Matrix3d sponge_ori = Eigen::AngleAxisd(M_PI/2, Vector3d::UnitX()).toRotationMatrix();
 			 pose_task->setGoalOrientation(sponge_ori);
 			 
  
@@ -142,7 +142,12 @@
 			 ee_ori = robot->rotation(control_link);
 			 if ((ee_ori - sponge_ori).norm() < 1e-2) {
 				 cout << "Orientation Achieved" << endl;
-				 state = INITIAL_APPROACH1;
+				 state = STOP;
+
+				 // print out position before approaching
+				 Vector3d ee_pos_current = robot->position(control_link, control_point);
+				 cout << "EE position: " << ee_pos_current.transpose() << endl;
+				 
 				 pose_task->reInitializeTask();
 				 joint_task->reInitializeTask();
 			 }
@@ -314,30 +319,12 @@
 		 }
 
 		 else if (state == STOP) {
-			if (clean1_start_time < 0.0) {
-				clean1_start_time = time;
-			}
-			double t_elapsed = time - clean1_start_time;
-
-			Vector3d ee_curr = robot->position(control_link, control_point);
-			pose_task->setGoalPosition(ee_curr);
-
-			// Build task and compute torques to hold pose
+			// stop the robot
 			N_prec.setIdentity();
 			pose_task->updateTaskModel(N_prec);
 			joint_task->updateTaskModel(pose_task->getTaskAndPreviousNullspace());
 
 			command_torques = pose_task->computeTorques() + joint_task->computeTorques();
-
-			const double thresh = 1e-2;  // 1 cm on XY maybe?
-			if (t_elapsed > 2.0) {
-				cout << "STOP, moving to next state\n";
-				state = INITIAL_APPROACH2;
-				// reset tasks here
-				clean1_start_time = -1.0;
-				pose_task->reInitializeTask();
-				joint_task->reInitializeTask();
-			}
 		 }
  
 		 // execute redis write callback
