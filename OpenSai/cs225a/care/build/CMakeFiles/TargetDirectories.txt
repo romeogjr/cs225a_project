@@ -1,0 +1,4 @@
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/care/build/CMakeFiles/simviz_panda_care.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/care/build/CMakeFiles/controller_panda_care.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/care/build/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/care/build/CMakeFiles/rebuild_cache.dir

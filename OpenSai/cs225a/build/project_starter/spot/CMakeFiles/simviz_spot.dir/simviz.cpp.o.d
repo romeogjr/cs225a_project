@@ -1,1505 +1,910 @@
 project_starter/spot/CMakeFiles/simviz_spot.dir/simviz.cpp.o: \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSai/cs225a/project_starter/spot/simviz.cpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/abi.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/compiler.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/platform.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/language.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/math.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_symbol_aliasing.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/ptrcheck.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/abs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/enable_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/integral_constant.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cv.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/copysign.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_arithmetic.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_floating_point.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/promote.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/error_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/exponential_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_same.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fdim.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/fma.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hyperbolic_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/hypot.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/min_max.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/roots.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/version \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/functional.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_const.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_cv.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_lvalue_reference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_referenceable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_pointer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_void.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_reference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_volatile.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_storage.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/size_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_ptrdiff_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_size_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_wchar_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_null.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_nullptr_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_max_align_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_offsetof.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conditional.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/nat.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_list.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/aligned_union.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/alignment_of.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/decay.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_array.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_extent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_cvref.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/void_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/declval.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/extent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_abstract.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_assignable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_base_of.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_class.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_fundamental.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_null_pointer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/nullptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_convertible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_destructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_empty.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_enum.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_literal_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_member_pointer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_assignable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_object.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pod.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_pointer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_scalar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivial.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_assignable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_constructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_copyable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uint64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_intptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_destructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_union.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_volatile.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_signed.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cv.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_unsigned.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/rank.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_pointer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/result_of.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/invoke.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_reference_wrapper.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/underlying_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_final.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/conjunction.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/disjunction.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_swappable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/negation.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_trigonometric_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/logarithms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/modulo.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/remainder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/rounding_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/trigonometric_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_id_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ucontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_size_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/__endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libkern/arm/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/alloca.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ct_rune_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rune_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wchar_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_malloc_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/malloc/_ptrcheck.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_abort.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_dev_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ios.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory_resource.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ios/fpos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_locale_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__xlocale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_mb_cur_max.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/shared_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/three_way_comparable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/common_comparison_category.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/ordering.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/byte.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/max_align_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__cstddef/ptrdiff_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_reference_with.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/convertible_to.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/same_as.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/common_reference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/copy_cvref.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/equality_comparable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/boolean_testable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_const_lvalue_ref.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/totally_ordered.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/operations.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/desugars_to.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/reference_wrapper.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/synth_three_way.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/invoke.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/addressof.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/access.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocation_guard.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/construct_at.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__assertion_handler \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__verbose_abort \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/voidify.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/move.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/pointer_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_constant_evaluated.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/auto_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/compressed_pair.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/tuple.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_indices.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/integer_sequence.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/dependent_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/piecewise_construct.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iterator_operations.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/iter_swap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/swap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/concepts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/arithmetic.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_signed_integer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unsigned_integer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/assignable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/constructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/destructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/copyable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/movable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/swappable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/class_or_enum.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exchange.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/derived_from.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/invocable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/predicate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/regular.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/semiregular.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/relation.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_primary_template.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_valid_expansion.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_move.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/pair.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/readable_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/advance.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/convert_to_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/unreachable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/access.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_borrowed_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/auto_cast.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/concepts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/data.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/size.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iter_swap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/next.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/prev.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_iter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/pair.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/different_from.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/array.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/sfinae_helpers.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_element.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_size.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_like_ext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/tuple_like_no_subrange.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/complex.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_relocatable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/datasizeof.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_always_bitcastable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_equality_comparable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_trivially_lexicographically_comparable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_pointer_in_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/is_valid_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/segmented_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/comp_ref_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/min_element.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/identity.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_callable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/compare_three_way_result.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/subrange.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/subrange.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/dangling.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/empty.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_unbounded_array.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/exception_guard.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/unique_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/hash.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstring \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/type_identity.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/memory_order.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/lazy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/maybe_const.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/compare \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/special_functions.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/exception_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/operations.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/istream.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mbstate_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mbstate_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/rel_ops.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_const.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/in_place.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/no_destroy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/private_constructor_tag.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_wint_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_ctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/clocale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/locale.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/max_element.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_segment_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/rotate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/invert_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/bit_reference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctrans_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/__wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/___wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_wctype_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/___wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wctype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_wchar.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_header_macro.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___gnuc_va_list.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_list.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_arg.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg___va_copy.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stdarg_va_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_va_list.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_printf.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_seek_set.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctermid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_stdio.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_clock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_time_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timespec.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/xlocale/_wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/sanitizers.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/bounded_iter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/wrap_iter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/noexcept_move_assign_container.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory_resource/memory_resource.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/from_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_end.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_first_of.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/machine/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/_limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/data.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/empty.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/reverse_access.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/size.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/algorithm \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/all_of.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/any_of.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/binary_search.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lower_bound.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/half_positive.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_backward.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/copy_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/popcount.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/equal_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/upper_bound.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/fill.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/find_if_not.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/movable_box.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/aliases.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_base.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_sync.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/contention_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/cxx_atomic_impl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/to_gcc_order.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/duration.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/steady_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/time_point.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/system_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/pthread_impl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_cond_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_key_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_once_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/qos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/qos.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mach_port_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/check_memory_order.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_lock_free.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_flag.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/atomic_init.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/fence.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/kill_dependency.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/back_insert_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/front_insert_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/insert_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istream_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/move_sentinel.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ostreambuf_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/forward_like.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__variant/monostate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/memory \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/inout_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/out_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/raw_storage_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temporary_buffer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/generate_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/includes.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/inplace_merge.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/move_backward.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/swap_ranges.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/destruct_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_permutation.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_sorted_until.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_heap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sift_down.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/minmax_element.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/mismatch.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/simd_utils.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/bit_cast.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/countl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/aliasing_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/next_permutation.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/nth_element.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort_heap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pop_heap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/push_heap.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/strict_weak_ordering_check.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__debug_utils/randomize_range.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit/blsr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/ranges_operations.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/partition_point.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/prev_permutation.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_copy_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/replace_if.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/reverse_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/rotate_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_difference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_intersection.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_symmetric_difference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/set_union.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/shuffle.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_partition.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/transform.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unique_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/clamp.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/for_each_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/pstl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_category.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/errc.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/mutex \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__condition_variable/condition_variable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/mutex.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/unique_lock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/tag_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/lock_guard.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__bit_reference \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/streambuf \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/nl_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_char.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_short.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_u_int.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_caddr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blksize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_gid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_addr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_in_port_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_ino64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_key_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_nlink_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_useconds_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_suseconds_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_errno_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_def.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_setsize.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_set.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_zero.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_isset.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__locale_dir/locale_base_api/bsd_locale_defaults.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/lexicographical_compare_three_way.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/empty.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_result.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/vector.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/temp_value.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binary_negate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/bind.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder1st.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/binder2nd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fn.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/unary_negate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/builtin_new_allocator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/strip_signature.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/is_transparent.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__hash_table \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/remove_const_ref.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/erase_if_container.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/ranges_iterator_traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__node_handle \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/format.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_parse_context.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/tables.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_base_10.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/to_chars_result.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__charconv/traits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/make_32_64_or_128_bit.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_output.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_fill_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_transform.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_in_out_result.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/projected.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_copy_n.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_to_n_result.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/concepts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/parser_std_format_spec.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_arg.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/format_string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/unicode.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/extended_grapheme_cluster_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_upper_bound.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/indic_conjunct_break_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/default_searcher.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/not_fn.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/perfect_forward.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/generate_canonical.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/default_random_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inner_product.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/iota.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/pstl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/reduce.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/normal_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/knuth_b.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/random_device.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/ranlux.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/seed_seq.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-graphics/src/SaiGraphics.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/chai3d.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/audio/CAudioBuffer.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CMaths.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CTransform.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CMatrix3d.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CConstants.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/system/CGlobals.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/host_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/message.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/port.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/boolean.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/boolean.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/boolean.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/vm_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/vm_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/kern_return.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/kern_return.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/kern_return.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_statistics.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/time_value.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/host_notify.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/host_special_ports.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/memory_object_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_prot.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_sync.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/exception_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/exception.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/exception.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/thread_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/thread_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/thread_status.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/thread_state.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/thread_state.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach_debug/ipc_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/mach_voucher_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/std_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_uuid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/processor_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/processor_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/processor_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/task_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/policy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/task_inspect.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/task_policy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/task_special_ports.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/thread_info.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/thread_policy.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/thread_special_ports.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/clock_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_attributes.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_inherit.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_purgable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_behavior.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_region.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/vm_param.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/arm/vm_param.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/vm_page_size.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/kmod.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/dyld_kernel.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsobj_id_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dlfcn.h \
-  /opt/homebrew/include/eigen3/Eigen/Eigen \
-  /opt/homebrew/include/eigen3/Eigen/Dense \
-  /opt/homebrew/include/eigen3/Eigen/Core \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Macros.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_neon.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_bf16.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_vector_types.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/arm_fp16.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/complex \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/MKL_support.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/assert.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_static_assert.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Constants.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Meta.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/XprHelper.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/Memory.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/NumTraits.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctions.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/IO.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/DenseBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/MatrixBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/EigenBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Product.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Assign.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/ArrayBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/DenseStorage.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/NestByValue.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/ReturnByValue.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/NoAlias.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Matrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Array.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Dot.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/StableNorm.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Stride.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/MapBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Map.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Ref.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Block.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/VectorBlock.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/IndexedView.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Reshaped.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Transpose.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Diagonal.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Redux.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Visitor.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Fuzzy.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Swap.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/CommaInitializer.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/GeneralProduct.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Solve.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Inverse.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/SolverBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Transpositions.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/SolveTriangular.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/BandMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/CoreIterators.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/BooleanRedux.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Select.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Random.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Replicate.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/Reverse.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/StlIterators.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
-  /opt/homebrew/include/eigen3/Eigen/LU \
-  /opt/homebrew/include/eigen3/Eigen/src/misc/Kernel.h \
-  /opt/homebrew/include/eigen3/Eigen/src/misc/Image.h \
-  /opt/homebrew/include/eigen3/Eigen/src/LU/FullPivLU.h \
-  /opt/homebrew/include/eigen3/Eigen/src/LU/PartialPivLU.h \
-  /opt/homebrew/include/eigen3/Eigen/src/LU/Determinant.h \
-  /opt/homebrew/include/eigen3/Eigen/src/LU/InverseImpl.h \
-  /opt/homebrew/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
-  /opt/homebrew/include/eigen3/Eigen/Cholesky \
-  /opt/homebrew/include/eigen3/Eigen/Jacobi \
-  /opt/homebrew/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LLT.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Cholesky/LDLT.h \
-  /opt/homebrew/include/eigen3/Eigen/QR \
-  /opt/homebrew/include/eigen3/Eigen/Householder \
-  /opt/homebrew/include/eigen3/Eigen/src/Householder/Householder.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
-  /opt/homebrew/include/eigen3/Eigen/src/QR/HouseholderQR.h \
-  /opt/homebrew/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
-  /opt/homebrew/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
-  /opt/homebrew/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
-  /opt/homebrew/include/eigen3/Eigen/SVD \
-  /opt/homebrew/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SVD/SVDBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SVD/BDCSVD.h \
-  /opt/homebrew/include/eigen3/Eigen/Geometry \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/RotationBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Quaternion.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Transform.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Translation.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Scaling.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/Umeyama.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
-  /opt/homebrew/include/eigen3/Eigen/Eigenvalues \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
-  /opt/homebrew/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
-  /opt/homebrew/include/eigen3/Eigen/Sparse \
-  /opt/homebrew/include/eigen3/Eigen/SparseCore \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/map \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseBinaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseUnaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseBinaryOps.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/../plugins/BlockMethods.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseView.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
-  /opt/homebrew/include/eigen3/Eigen/OrderingMethods \
-  /opt/homebrew/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
-  /opt/homebrew/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
-  /opt/homebrew/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
-  /opt/homebrew/include/eigen3/Eigen/SparseCholesky \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
-  /opt/homebrew/include/eigen3/Eigen/SparseLU \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
-  /opt/homebrew/include/eigen3/Eigen/SparseQR \
-  /opt/homebrew/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
-  /opt/homebrew/include/eigen3/Eigen/IterativeLinearSolvers \
-  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
-  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
-  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
-  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
-  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
-  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
-  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
-  /opt/homebrew/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CVector3d.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/system/CString.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/audio/CAudioDevice.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/audio/CAudioSource.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/devices/CGenericDevice.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/devices/CGenericHapticDevice.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/timers/CPrecisionClock.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/devices/CHapticDeviceHandler.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/devices/CMyCustomDevice.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/devices/CDeltaDevices.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/devices/CLeapDevices.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/devices/CPhantomDevices.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/devices/CSixenseDevices.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CColor.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/COpenGLHeaders.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/os/availability.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CDisplayList.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CDraw3D.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CFog.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CRenderOptions.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CFont.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/materials/CTexture2d.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CImage.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/materials/CTexture1d.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/materials/CGenericTexture.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CMultiImage.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CVideo.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/system/CMutex.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CPrimitives.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CMesh.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CGenericObject.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/collisions/CCollisionBasics.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CPointArray.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CGenericArray.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CGeometry.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CPolySolver.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CVertexArray.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/shaders/CShader.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CSegmentArray.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/graphics/CTriangleArray.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/materials/CMaterial.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/effects/CGenericEffect.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/forces/CInteractionBasics.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/materials/CNormalMap.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/system/CGenericType.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/shaders/CShaderProgram.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/materials/CTexture3d.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/materials/CTextureVideo.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CBezier.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CMarchingCubes.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/math/CQuaternion.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CGenericWidget.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CBackground.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CBitmap.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CPanel.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CDial.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CLabel.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CLevel.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CScope.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/widgets/CViewPanel.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/display/CFrameBuffer.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CWorld.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/display/CCamera.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CMultiMesh.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CMultiPoint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CMultiSegment.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CShapeBox.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CShapeCylinder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CShapeEllipsoid.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CShapeLine.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CShapeSphere.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CShapeTorus.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/world/CVoxelObject.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/lighting/CGenericLight.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/lighting/CShadowMap.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/lighting/CDirectionalLight.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/lighting/CPositionalLight.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/lighting/CSpotLight.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/tools/CGenericTool.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/collisions/CGenericCollision.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/forces/CAlgorithmFingerProxy.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/forces/CGenericForceAlgorithm.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/forces/CAlgorithmPotentialField.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/timers/CFrequencyCounter.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/tools/CHapticPoint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/tools/CToolCursor.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/tools/CToolGripper.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/effects/CEffectMagnet.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/effects/CEffectSurface.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/effects/CEffectStickSlip.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/effects/CEffectViscosity.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/effects/CEffectVibration.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/collisions/CCollisionBrute.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/collisions/CCollisionAABB.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/collisions/CCollisionAABBTree.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/collisions/CCollisionAABBBox.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileAudioWAV.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileImageBMP.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileImageGIF.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileImageJPG.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileImagePNG.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileImagePPM.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileImageRAW.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileModel3DS.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileModelOBJ.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileModelSTL.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/files/CFileXML.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/system/CThread.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CChai3dLogo.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri16.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri18.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri20.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri22.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri24.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri26.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri28.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri32.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri36.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri40.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri72.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CFontCalibri144.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderBasicVoxel-LUT8.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderBasicVoxel-RGBA8.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderDVR-LUT8.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderFong.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderIsosurfaceColor-L8.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderIsosurfaceColor-LUT8.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderIsosurfaceColor-RGBA8.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderIsosurface-L8.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/chai3d/src/resources/CShaderIsosurface-RGBA8.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/src/SaiModel.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_math.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/build/include/rbdl/rbdl_config.h \
-  /opt/homebrew/include/eigen3/Eigen/StdVector \
-  /opt/homebrew/include/eigen3/Eigen/src/StlSupport/StdVector.h \
-  /opt/homebrew/include/eigen3/Eigen/src/StlSupport/details.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_eigenmath.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Quaternion.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/SpatialAlgebraOperators.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_mathutils.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Logging.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Body.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_errors.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Model.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Joint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Dynamics.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Kinematics.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Constraints.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Constraint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Constraint_Contact.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/Constraint_Loop.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_utils.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/src/JointLimits.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-model/src/parser/SaiModelParserUtils.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-graphics/src/widgets/ForceSensorDisplay.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-graphics/src/widgets/UIForceWidget.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-graphics/src/chai_extension/CRobotLink.h \
-  /opt/homebrew/include/GLFW/glfw3.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/SaiSimulation.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/force_sensor_sim/ForceSensorSim.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-common/src/filters/ButterworthFilter.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/dynamics3d.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/chai3d/CDynamicBase.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/chai3d/CDynamicLink.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/chai3d/CDynInternal.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/distance/CDynCover.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMathDefn.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/distance/CDynDist.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/distance/CDynHierarchy.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/distance/CDynPrim.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynVector3.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynVector3f.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMatrix3f.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynQuaternionf.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynFramef.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynVector6f.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynTransformf.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/dynamics/CDynABDynamics.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynObject.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/global/CDynGlobalDefn.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynFrameStack.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynFrame.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMatrix3.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynQuaternion.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynTransform.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynMass.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynGeometry.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynPrimitive.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynJoint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynVector6.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMatrix6.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/var/CDynVar.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/var/CDynState.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/dynamics/CDynDynamics.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynForce.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/dynamics/CDynABNode.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/dynamics/CDynABJoint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/extras/CDynHull.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMatrix6f.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynAttractConstraint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynConstraint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynBaseNode.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/utility/CDynLogger.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/utility/CDynTimeEvent.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/utility/CDynQHeader.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynContact.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynFrictionRecord.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynMaterial.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynPrimPair.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynCollision.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynCollisionCheckRecord.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynConstraintList.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynContactEvent.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynContactPointCache.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynJointLimit.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynPinConstraint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynRayCast.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynWorld.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynSphericalConstraint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/node/CDynTrackConstraint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynForceProperty.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/object/CDynProperty.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/utility/CDynError.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/utility/CDynTimeInterval.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/time.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_timeval64.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_select.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/headers_core/var/CDynInterpolate.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/chai3d/CDynamicJoint.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/chai3d/CDynamicMaterial.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/chai3d/CDynamicContact.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-simulation/src/chai3d/CDynamicWorld.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/SaiPrimitives.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/tasks/JointTask.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/helper_modules/OTG_joints.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/ruckig.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/calculator.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/calculator_target.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/block.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/profile.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/brake.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/utils.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/roots.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cfloat \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/float.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/17/include/float.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/float.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/error.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/input_parameter.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/result.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/position.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/trajectory.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/velocity.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/ruckig/include/ruckig/output_parameter.hpp \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/tasks/TemplateTask.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/helper_modules/SaiPrimitivesCommonDefinitions.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/tasks/JointLimitAvoidanceTask.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/tasks/MotionForceTask.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/helper_modules/OTG_6dof_cartesian.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/helper_modules/POPCExplicitForceControl.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/tasks/SingularityHandler.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/POPCBilateralTeleoperation.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/HapticDeviceController.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-primitives/src/RobotController.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-common/src/redis/RedisClient.h \
-  /opt/homebrew/include/hiredis/hiredis.h \
-  /opt/homebrew/include/hiredis/read.h \
-  /opt/homebrew/include/hiredis/sds.h \
-  /opt/homebrew/include/hiredis/alloc.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-common/src/timer/LoopTimer.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/hw/OpenSai/core/sai-common/src/logger/Logger.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/unistd.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_posix_vdisable.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/select.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/gethostuuid.h \
-  /Users/romeo/Documents/courses/Spring\ 2025/CS225A/cs225a_project/OpenSai/cs225a/project_starter/spot/redis_keys.h
+ /home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/project_starter/spot/simviz.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/13/math.h \
+ /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+ /usr/include/c++/13/pstl/pstl_config.h \
+ /usr/include/c++/13/bits/cpp_type_traits.h \
+ /usr/include/c++/13/ext/type_traits.h /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/13/bits/std_abs.h /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/bits/select-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/13/bits/specfun.h \
+ /usr/include/c++/13/bits/stl_algobase.h \
+ /usr/include/c++/13/bits/functexcept.h \
+ /usr/include/c++/13/bits/exception_defines.h \
+ /usr/include/c++/13/ext/numeric_traits.h \
+ /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/type_traits \
+ /usr/include/c++/13/bits/move.h /usr/include/c++/13/bits/utility.h \
+ /usr/include/c++/13/bits/stl_iterator_base_types.h \
+ /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/13/bits/concept_check.h \
+ /usr/include/c++/13/debug/assertions.h \
+ /usr/include/c++/13/bits/stl_iterator.h \
+ /usr/include/c++/13/bits/ptr_traits.h /usr/include/c++/13/debug/debug.h \
+ /usr/include/c++/13/bits/predefined_ops.h /usr/include/c++/13/bit \
+ /usr/include/c++/13/limits /usr/include/c++/13/tr1/gamma.tcc \
+ /usr/include/c++/13/tr1/special_function_util.h \
+ /usr/include/c++/13/tr1/bessel_function.tcc \
+ /usr/include/c++/13/tr1/beta_function.tcc \
+ /usr/include/c++/13/tr1/ell_integral.tcc \
+ /usr/include/c++/13/tr1/exp_integral.tcc \
+ /usr/include/c++/13/tr1/hypergeometric.tcc \
+ /usr/include/c++/13/tr1/legendre_function.tcc \
+ /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/13/tr1/poly_hermite.tcc \
+ /usr/include/c++/13/tr1/poly_laguerre.tcc \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+ /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstksz.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
+ /usr/include/c++/13/ios /usr/include/c++/13/iosfwd \
+ /usr/include/c++/13/bits/stringfwd.h \
+ /usr/include/c++/13/bits/memoryfwd.h /usr/include/c++/13/bits/postypes.h \
+ /usr/include/c++/13/cwchar /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
+ /usr/include/c++/13/exception /usr/include/c++/13/bits/exception.h \
+ /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/cxxabi_init_exception.h \
+ /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/hash_bytes.h \
+ /usr/include/c++/13/new /usr/include/c++/13/bits/nested_exception.h \
+ /usr/include/c++/13/bits/char_traits.h \
+ /usr/include/c++/13/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+ /usr/include/c++/13/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/13/cctype \
+ /usr/include/ctype.h /usr/include/c++/13/bits/ios_base.h \
+ /usr/include/c++/13/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
+ /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+ /usr/include/c++/13/bits/locale_classes.h /usr/include/c++/13/string \
+ /usr/include/c++/13/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+ /usr/include/c++/13/bits/new_allocator.h \
+ /usr/include/c++/13/bits/ostream_insert.h \
+ /usr/include/c++/13/bits/cxxabi_forced.h \
+ /usr/include/c++/13/bits/stl_function.h \
+ /usr/include/c++/13/backward/binders.h \
+ /usr/include/c++/13/bits/refwrap.h /usr/include/c++/13/bits/invoke.h \
+ /usr/include/c++/13/bits/range_access.h \
+ /usr/include/c++/13/initializer_list \
+ /usr/include/c++/13/bits/basic_string.h \
+ /usr/include/c++/13/ext/alloc_traits.h \
+ /usr/include/c++/13/bits/alloc_traits.h \
+ /usr/include/c++/13/bits/stl_construct.h /usr/include/c++/13/string_view \
+ /usr/include/c++/13/bits/functional_hash.h \
+ /usr/include/c++/13/bits/string_view.tcc \
+ /usr/include/c++/13/ext/string_conversions.h /usr/include/c++/13/cstdlib \
+ /usr/include/c++/13/cstdio /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/13/cerrno \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/13/bits/charconv.h \
+ /usr/include/c++/13/bits/basic_string.tcc \
+ /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
+ /usr/include/c++/13/bits/uses_allocator.h \
+ /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
+ /usr/include/c++/13/bits/locale_classes.tcc \
+ /usr/include/c++/13/system_error \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
+ /usr/include/c++/13/stdexcept /usr/include/c++/13/streambuf \
+ /usr/include/c++/13/bits/streambuf.tcc \
+ /usr/include/c++/13/bits/basic_ios.h \
+ /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+ /usr/include/c++/13/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+ /usr/include/c++/13/bits/locale_facets.tcc \
+ /usr/include/c++/13/bits/basic_ios.tcc \
+ /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/mutex \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/13/ctime /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/thread \
+ /usr/include/c++/13/bits/std_thread.h \
+ /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/this_thread_sleep.h /usr/include/c++/13/fstream \
+ /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/filesystem \
+ /usr/include/c++/13/bits/fs_fwd.h /usr/include/c++/13/bits/fs_path.h \
+ /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h /usr/include/c++/13/iomanip \
+ /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/sstream \
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/codecvt \
+ /usr/include/c++/13/ext/concurrence.h \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
+ /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/random \
+ /usr/include/c++/13/bits/random.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
+ /usr/include/c++/13/bits/random.tcc /usr/include/c++/13/numeric \
+ /usr/include/c++/13/bits/stl_numeric.h \
+ /usr/include/c++/13/pstl/glue_numeric_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-graphics/src/SaiGraphics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/chai3d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/audio/CAudioBuffer.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CMaths.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CTransform.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CMatrix3d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CConstants.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CGlobals.h \
+ /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/include/c++/13/memory /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/align.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/dlfcn.h \
+ /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
+ /usr/include/x86_64-linux-gnu/bits/dl_find_object.h \
+ /usr/include/eigen3/Eigen/Eigen /usr/include/eigen3/Eigen/Dense \
+ /usr/include/eigen3/Eigen/Core \
+ /usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
+ /usr/include/eigen3/Eigen/src/Core/util/Macros.h \
+ /usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
+ /usr/include/c++/13/stdlib.h /usr/include/c++/13/complex \
+ /usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
+ /usr/include/c++/13/cassert /usr/include/assert.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/bits/node_handle.h \
+ /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/array \
+ /usr/include/c++/13/compare /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h /usr/include/c++/13/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+ /usr/include/eigen3/Eigen/src/Core/util/Constants.h \
+ /usr/include/eigen3/Eigen/src/Core/util/Meta.h \
+ /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h \
+ /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h \
+ /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h \
+ /usr/include/eigen3/Eigen/src/Core/util/Memory.h \
+ /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h \
+ /usr/include/eigen3/Eigen/src/Core/util/SymbolicIndex.h \
+ /usr/include/eigen3/Eigen/src/Core/NumTraits.h \
+ /usr/include/eigen3/Eigen/src/Core/MathFunctions.h \
+ /usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h \
+ /usr/include/eigen3/Eigen/src/Core/MathFunctionsImpl.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/Default/ConjHelper.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/Default/Half.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
+ /usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
+ /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
+ /usr/include/eigen3/Eigen/src/Core/functors/BinaryFunctors.h \
+ /usr/include/eigen3/Eigen/src/Core/functors/UnaryFunctors.h \
+ /usr/include/eigen3/Eigen/src/Core/functors/NullaryFunctors.h \
+ /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h \
+ /usr/include/eigen3/Eigen/src/Core/functors/AssignmentFunctors.h \
+ /usr/include/eigen3/Eigen/src/Core/util/IndexedViewHelper.h \
+ /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h \
+ /usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h \
+ /usr/include/eigen3/Eigen/src/Core/IO.h \
+ /usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h \
+ /usr/include/eigen3/Eigen/src/Core/DenseBase.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseUnaryOps.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/BlockMethods.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/IndexedViewMethods.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/ReshapedMethods.h \
+ /usr/include/eigen3/Eigen/src/Core/MatrixBase.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/CommonCwiseBinaryOps.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/MatrixCwiseBinaryOps.h \
+ /usr/include/eigen3/Eigen/src/Core/EigenBase.h \
+ /usr/include/eigen3/Eigen/src/Core/Product.h \
+ /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h \
+ /usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h \
+ /usr/include/eigen3/Eigen/src/Core/Assign.h \
+ /usr/include/eigen3/Eigen/src/Core/ArrayBase.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h \
+ /usr/include/eigen3/Eigen/src/Core/../plugins/ArrayCwiseBinaryOps.h \
+ /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h \
+ /usr/include/eigen3/Eigen/src/Core/DenseStorage.h \
+ /usr/include/eigen3/Eigen/src/Core/NestByValue.h \
+ /usr/include/eigen3/Eigen/src/Core/ReturnByValue.h \
+ /usr/include/eigen3/Eigen/src/Core/NoAlias.h \
+ /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h \
+ /usr/include/eigen3/Eigen/src/Core/Matrix.h \
+ /usr/include/eigen3/Eigen/src/Core/Array.h \
+ /usr/include/eigen3/Eigen/src/Core/CwiseTernaryOp.h \
+ /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h \
+ /usr/include/eigen3/Eigen/src/Core/CwiseUnaryOp.h \
+ /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h \
+ /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h \
+ /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h \
+ /usr/include/eigen3/Eigen/src/Core/Dot.h \
+ /usr/include/eigen3/Eigen/src/Core/StableNorm.h \
+ /usr/include/eigen3/Eigen/src/Core/Stride.h \
+ /usr/include/eigen3/Eigen/src/Core/MapBase.h \
+ /usr/include/eigen3/Eigen/src/Core/Map.h \
+ /usr/include/eigen3/Eigen/src/Core/Ref.h \
+ /usr/include/eigen3/Eigen/src/Core/Block.h \
+ /usr/include/eigen3/Eigen/src/Core/VectorBlock.h \
+ /usr/include/eigen3/Eigen/src/Core/IndexedView.h \
+ /usr/include/eigen3/Eigen/src/Core/Reshaped.h \
+ /usr/include/eigen3/Eigen/src/Core/Transpose.h \
+ /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h \
+ /usr/include/eigen3/Eigen/src/Core/Diagonal.h \
+ /usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h \
+ /usr/include/eigen3/Eigen/src/Core/Redux.h \
+ /usr/include/eigen3/Eigen/src/Core/Visitor.h \
+ /usr/include/eigen3/Eigen/src/Core/Fuzzy.h \
+ /usr/include/eigen3/Eigen/src/Core/Swap.h \
+ /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h \
+ /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h \
+ /usr/include/eigen3/Eigen/src/Core/Solve.h \
+ /usr/include/eigen3/Eigen/src/Core/Inverse.h \
+ /usr/include/eigen3/Eigen/src/Core/SolverBase.h \
+ /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h \
+ /usr/include/eigen3/Eigen/src/Core/Transpositions.h \
+ /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h \
+ /usr/include/eigen3/Eigen/src/Core/SelfAdjointView.h \
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralBlockPanelKernel.h \
+ /usr/include/eigen3/Eigen/src/Core/products/Parallelizer.h \
+ /usr/include/c++/13/atomic \
+ /usr/include/eigen3/Eigen/src/Core/ProductEvaluators.h \
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixVector.h \
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h \
+ /usr/include/eigen3/Eigen/src/Core/SolveTriangular.h \
+ /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h \
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h \
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h \
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h \
+ /usr/include/eigen3/Eigen/src/Core/products/SelfadjointRank2Update.h \
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h \
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h \
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h \
+ /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h \
+ /usr/include/eigen3/Eigen/src/Core/BandMatrix.h \
+ /usr/include/eigen3/Eigen/src/Core/CoreIterators.h \
+ /usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+ /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h \
+ /usr/include/eigen3/Eigen/src/Core/Select.h \
+ /usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \
+ /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h \
+ /usr/include/eigen3/Eigen/src/Core/Random.h \
+ /usr/include/eigen3/Eigen/src/Core/Replicate.h \
+ /usr/include/eigen3/Eigen/src/Core/Reverse.h \
+ /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h \
+ /usr/include/eigen3/Eigen/src/Core/StlIterators.h \
+ /usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h \
+ /usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h \
+ /usr/include/eigen3/Eigen/LU /usr/include/eigen3/Eigen/src/misc/Kernel.h \
+ /usr/include/eigen3/Eigen/src/misc/Image.h \
+ /usr/include/eigen3/Eigen/src/LU/FullPivLU.h \
+ /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h \
+ /usr/include/eigen3/Eigen/src/LU/Determinant.h \
+ /usr/include/eigen3/Eigen/src/LU/InverseImpl.h \
+ /usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h \
+ /usr/include/eigen3/Eigen/Cholesky /usr/include/eigen3/Eigen/Jacobi \
+ /usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h \
+ /usr/include/eigen3/Eigen/src/Cholesky/LLT.h \
+ /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h \
+ /usr/include/eigen3/Eigen/QR /usr/include/eigen3/Eigen/Householder \
+ /usr/include/eigen3/Eigen/src/Householder/Householder.h \
+ /usr/include/eigen3/Eigen/src/Householder/HouseholderSequence.h \
+ /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h \
+ /usr/include/eigen3/Eigen/src/QR/HouseholderQR.h \
+ /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h \
+ /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h \
+ /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h \
+ /usr/include/eigen3/Eigen/SVD \
+ /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h \
+ /usr/include/eigen3/Eigen/src/SVD/UpperBidiagonalization.h \
+ /usr/include/eigen3/Eigen/src/SVD/SVDBase.h \
+ /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h \
+ /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h \
+ /usr/include/eigen3/Eigen/Geometry \
+ /usr/include/eigen3/Eigen/src/Geometry/OrthoMethods.h \
+ /usr/include/eigen3/Eigen/src/Geometry/EulerAngles.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h \
+ /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Rotation2D.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h \
+ /usr/include/eigen3/Eigen/src/Geometry/AngleAxis.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Transform.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Translation.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Scaling.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h \
+ /usr/include/eigen3/Eigen/src/Geometry/ParametrizedLine.h \
+ /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h \
+ /usr/include/eigen3/Eigen/src/Geometry/Umeyama.h \
+ /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h \
+ /usr/include/eigen3/Eigen/Eigenvalues \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./HessenbergDecomposition.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./RealSchur.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./Tridiagonalization.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./ComplexSchur.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/./RealQZ.h \
+ /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+ /usr/include/eigen3/Eigen/Sparse /usr/include/eigen3/Eigen/SparseCore \
+ /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseUtil.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrixBase.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseUnaryOps.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/../plugins/CommonCwiseBinaryOps.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseUnaryOps.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/../plugins/MatrixCwiseBinaryOps.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/../plugins/BlockMethods.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseAssign.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/CompressedStorage.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/AmbiVector.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCompressedBase.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMatrix.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseMap.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/MappedSparseMatrix.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseVector.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseRef.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseUnaryOp.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseCwiseBinaryOp.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseTranspose.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseBlock.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseDot.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseRedux.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseView.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseDiagonalProduct.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSparseProductWithPruning.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseProduct.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseDenseProduct.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSelfAdjointView.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseTriangularView.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/TriangularSolver.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparsePermutation.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseFuzzy.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseSolverBase.h \
+ /usr/include/eigen3/Eigen/OrderingMethods \
+ /usr/include/eigen3/Eigen/src/OrderingMethods/Amd.h \
+ /usr/include/eigen3/Eigen/src/OrderingMethods/Ordering.h \
+ /usr/include/eigen3/Eigen/src/OrderingMethods/Eigen_Colamd.h \
+ /usr/include/eigen3/Eigen/SparseCholesky \
+ /usr/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+ /usr/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
+ /usr/include/eigen3/Eigen/SparseLU \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_gemm_kernel.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Structs.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLUImpl.h \
+ /usr/include/eigen3/Eigen/src/SparseCore/SparseColEtree.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Memory.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_relax_snode.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pivotL.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_dfs.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_kernel_bmod.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_panel_bmod.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_column_dfs.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_column_bmod.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_pruneL.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU_Utils.h \
+ /usr/include/eigen3/Eigen/src/SparseLU/SparseLU.h \
+ /usr/include/eigen3/Eigen/SparseQR \
+ /usr/include/eigen3/Eigen/src/SparseQR/SparseQR.h \
+ /usr/include/eigen3/Eigen/IterativeLinearSolvers \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
+ /usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
+ /usr/include/c++/13/list /usr/include/c++/13/bits/stl_list.h \
+ /usr/include/c++/13/bits/list.tcc \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CVector3d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CString.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/audio/CAudioDevice.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/audio/CAudioBuffer.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/audio/CAudioSource.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/audio/CAudioSource.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CGenericDevice.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CGenericHapticDevice.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CGenericDevice.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/timers/CPrecisionClock.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CHapticDeviceHandler.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CGenericHapticDevice.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CMyCustomDevice.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CDeltaDevices.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CLeapDevices.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CPhantomDevices.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/devices/CSixenseDevices.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CColor.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/COpenGLHeaders.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/external/glew/include/GL/glew.h \
+ /usr/include/GL/glu.h /usr/include/GL/gl.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CDisplayList.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CDraw3D.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CFog.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CColor.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CRenderOptions.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CFont.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CTexture2d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CImage.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CTexture1d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CGenericTexture.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CImage.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CMultiImage.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CVideo.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CMutex.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CPrimitives.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CMesh.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CGenericObject.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/collisions/CCollisionBasics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CPointArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CGenericArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CGeometry.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CPolySolver.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CVertexArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/shaders/CShader.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CSegmentArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CTriangleArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CMaterial.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/effects/CGenericEffect.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/forces/CInteractionBasics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CDraw3D.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CDisplayList.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CNormalMap.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CGenericType.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CRenderOptions.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CGenericArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CPointArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CSegmentArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CTriangleArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CVertexArray.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/shaders/CShader.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/shaders/CShaderProgram.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CGenericTexture.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CMaterial.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CNormalMap.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CTexture1d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CTexture2d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CTexture3d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CMultiImage.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/materials/CTextureVideo.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CVideo.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CBezier.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CConstants.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CGeometry.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CMaths.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CMatrix3d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CMarchingCubes.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CPolySolver.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CQuaternion.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CTransform.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/math/CVector3d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CGenericWidget.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CBackground.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CBitmap.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CPanel.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CGenericWidget.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CBitmap.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CDial.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CLabel.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CFont.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CLevel.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CPanel.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CScope.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/widgets/CViewPanel.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/display/CFrameBuffer.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CWorld.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/display/CCamera.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/audio/CAudioDevice.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/graphics/CFog.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CGenericObject.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CMesh.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CMultiMesh.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CMultiPoint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CMultiSegment.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CShapeBox.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CShapeCylinder.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CShapeEllipsoid.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CShapeLine.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CShapeSphere.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CShapeTorus.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CVoxelObject.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CMultiMesh.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CWorld.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/display/CCamera.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/display/CFrameBuffer.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CGenericLight.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CShadowMap.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CDirectionalLight.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CGenericLight.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CPositionalLight.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CSpotLight.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CPositionalLight.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CDirectionalLight.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/lighting/CShadowMap.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/tools/CGenericTool.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/collisions/CGenericCollision.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/forces/CAlgorithmFingerProxy.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/forces/CGenericForceAlgorithm.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/forces/CAlgorithmPotentialField.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/timers/CFrequencyCounter.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/tools/CHapticPoint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/world/CShapeSphere.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/tools/CHapticPoint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/tools/CToolCursor.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/tools/CGenericTool.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/tools/CToolGripper.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/effects/CGenericEffect.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/effects/CEffectMagnet.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/effects/CEffectSurface.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/effects/CEffectStickSlip.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/effects/CEffectViscosity.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/effects/CEffectVibration.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/forces/CGenericForceAlgorithm.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/forces/CAlgorithmFingerProxy.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/forces/CAlgorithmPotentialField.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/forces/CInteractionBasics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/collisions/CGenericCollision.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/collisions/CCollisionBasics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/collisions/CCollisionBrute.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/collisions/CCollisionAABB.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/collisions/CCollisionAABBTree.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/collisions/CCollisionAABBBox.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/timers/CFrequencyCounter.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/timers/CPrecisionClock.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileAudioWAV.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileImageBMP.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileImageGIF.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileImageJPG.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileImagePNG.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileImagePPM.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileImageRAW.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileModel3DS.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileModelOBJ.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileModelSTL.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileXML.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CGenericType.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CGlobals.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CMutex.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CString.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/system/CThread.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CChai3dLogo.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/files/CFileImagePNG.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri16.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri18.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri20.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri22.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri24.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri26.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri28.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri32.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri36.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri40.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri72.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CFontCalibri144.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderBasicVoxel-LUT8.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderBasicVoxel-RGBA8.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderDVR-LUT8.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderFong.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderIsosurfaceColor-L8.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderIsosurfaceColor-LUT8.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderIsosurfaceColor-RGBA8.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderIsosurface-L8.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/chai3d/src/resources/CShaderIsosurface-RGBA8.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/src/SaiModel.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_math.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/build/include/rbdl/rbdl_config.h \
+ /usr/include/eigen3/Eigen/Dense /usr/include/eigen3/Eigen/Core \
+ /usr/include/eigen3/Eigen/StdVector \
+ /usr/include/eigen3/Eigen/src/StlSupport/StdVector.h \
+ /usr/include/eigen3/Eigen/src/StlSupport/details.h \
+ /usr/include/eigen3/Eigen/QR \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_eigenmath.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Quaternion.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/SpatialAlgebraOperators.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_mathutils.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Logging.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Body.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_errors.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Model.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Joint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Dynamics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Kinematics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Constraints.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Constraint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Constraint_Contact.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/Constraint_Loop.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/rbdl/include/rbdl/rbdl_utils.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/src/JointLimits.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-model/src/parser/SaiModelParserUtils.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-graphics/src/widgets/ForceSensorDisplay.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-graphics/src/widgets/UIForceWidget.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-graphics/src/chai_extension/CRobotLink.h \
+ /usr/include/GLFW/glfw3.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/SaiSimulation.h \
+ /usr/include/eigen3/Eigen/Geometry \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/force_sensor_sim/ForceSensorSim.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-common/src/filters/ButterworthFilter.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/dynamics3d.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicBase.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicLink.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynInternal.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/distance/CDynCover.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMathDefn.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/distance/CDynDist.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/distance/CDynHierarchy.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/distance/CDynPrim.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynVector3.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynVector3f.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMatrix3f.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynQuaternionf.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynFramef.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynVector6f.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynTransformf.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/dynamics/CDynABDynamics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynObject.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/global/CDynGlobalDefn.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynFrameStack.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynFrame.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMatrix3.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynQuaternion.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynTransform.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynMass.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynGeometry.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynPrimitive.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynJoint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynVector6.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMatrix6.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/var/CDynVar.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/var/CDynState.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/dynamics/CDynDynamics.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynForce.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/dynamics/CDynABNode.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/dynamics/CDynABJoint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/extras/CDynHull.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/matrix/CDynMatrix6f.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynAttractConstraint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynConstraint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynBaseNode.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/utility/CDynLogger.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/utility/CDynTimeEvent.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/utility/CDynQHeader.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynContact.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynFrictionRecord.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynMaterial.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynPrimPair.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynCollision.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynCollisionCheckRecord.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynConstraintList.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynContactEvent.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynContactPointCache.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynJointLimit.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynPinConstraint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynRayCast.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynWorld.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynSphericalConstraint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/node/CDynTrackConstraint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynForceProperty.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/object/CDynProperty.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/utility/CDynError.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/utility/CDynTimeInterval.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/headers_core/var/CDynInterpolate.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicJoint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicMaterial.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicContact.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicContact.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicJoint.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicLink.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicMaterial.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicWorld.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-simulation/src/chai3d/CDynamicBase.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/SaiPrimitives.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/tasks/JointTask.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/helper_modules/OTG_joints.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/ruckig.hpp \
+ /usr/include/c++/13/chrono /usr/include/c++/13/optional \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/calculator.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/calculator_target.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/block.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/profile.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/brake.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/utils.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/roots.hpp \
+ /usr/include/c++/13/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/error.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/input_parameter.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/result.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/position.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/trajectory.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/velocity.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/ruckig/include/ruckig/output_parameter.hpp \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/tasks/TemplateTask.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/helper_modules/SaiPrimitivesCommonDefinitions.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/tasks/JointLimitAvoidanceTask.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/tasks/MotionForceTask.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/helper_modules/OTG_6dof_cartesian.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/helper_modules/POPCExplicitForceControl.h \
+ /usr/include/c++/13/queue /usr/include/c++/13/deque \
+ /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
+ /usr/include/c++/13/bits/stl_queue.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/tasks/SingularityHandler.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/tasks/TemplateTask.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/POPCBilateralTeleoperation.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/HapticDeviceController.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-primitives/src/RobotController.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-common/src/redis/RedisClient.h \
+ /usr/include/hiredis/hiredis.h /usr/include/hiredis/read.h \
+ /usr/include/hiredis/sds.h /usr/include/hiredis/alloc.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-common/src/timer/LoopTimer.h \
+ /home/yalcintur/workspace/courses/OpenSai/core/sai-common/src/logger/Logger.h \
+ /home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/project_starter/spot/redis_keys.h

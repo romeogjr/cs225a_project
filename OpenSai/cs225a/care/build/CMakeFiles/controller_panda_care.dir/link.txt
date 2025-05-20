@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/controller_panda_care.dir/controller.o -o /panda_care/controller_panda_care 

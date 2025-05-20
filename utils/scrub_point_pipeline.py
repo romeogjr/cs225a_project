@@ -105,14 +105,18 @@ def get_torso_grid_with_depth(num_columns=9, num_rows=5, wait_time=3):
             selected.append((x, y, z))
             cv2.circle(frame, (xi, yi), 4, (0, 0, 255), -1)
 
-    # display + print
+    # show the annotated frame
     cv2.imshow("Torso Landmarks and Grid", frame)
     print("\n--- SELECTED GRID POINTS (x, y, z in meters) ---")
     for (x, y, z) in selected:
         print(f"({x:.1f}, {y:.1f}, {z:.3f})")
 
-    cv2.waitKey(0)
+    # timed wait (3 seconds) so that we always continue
+    key = cv2.waitKey(3000)
+    if key < 0:
+        print("[get_torso] ▶ timeout reached, closing display")
     cv2.destroyAllWindows()
+
     return selected
 
 def publish_xyz_as_eigen(selected_points,
@@ -126,21 +130,27 @@ def publish_xyz_as_eigen(selected_points,
     C++ RedisClient.getEigen() will parse it as Vector3d.
     """
     if not selected_points:
-        print("[publish_xyz_as_eigen] no points to publish")
+        print("[publish] ⚠️ no points to publish")
         return
 
     x, y, z = selected_points[pick_index]
-    # format with enough precision
     val = f"{x:.6f} {y:.6f} {z:.6f}"
 
-    r = redis.Redis(host=host, port=port, db=db)
-    r.set(EE_POS_DESIRED_KEY, val)
-    print(f"[publish_xyz_as_eigen] SET {EE_POS_DESIRED_KEY} = '{val}'")
-
+    try:
+        r = redis.Redis(host=host, port=port, db=db, socket_timeout=2)
+        print(f"[publish] ▶ connecting to Redis @ {host}:{port}, db={db}")
+        ok = r.set(EE_POS_DESIRED_KEY, val)
+        print(f"[publish] ✔ r.set returned: {ok!r}")
+        keys = r.keys()
+        print(f"[publish] 🔑 keys in DB0: {keys}")
+        got = r.get(EE_POS_DESIRED_KEY)
+        print(f"[publish] 📝 get '{EE_POS_DESIRED_KEY}': {got!r}")
+    except Exception as e:
+        print(f"[publish] ❌ ERROR talking to Redis: {e}")
 
 if __name__ == "__main__":
     pts_3d = get_torso_grid_with_depth()
-    print(pts_3d)
+    print("Returned points:", pts_3d)
 
     # Publish the first point as an Eigen::Vector3d
     publish_xyz_as_eigen(pts_3d, pick_index=0)

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/bin/panda_gripper_example/simviz_panda_gripper"
-  "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/bin/panda_gripper_example/simviz_panda_gripper.pdb"
+  "/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/bin/panda_gripper_example/simviz_panda_gripper"
+  "/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/bin/panda_gripper_example/simviz_panda_gripper.pdb"
   "CMakeFiles/simviz_panda_gripper.dir/simviz.cpp.o"
   "CMakeFiles/simviz_panda_gripper.dir/simviz.cpp.o.d"
 )

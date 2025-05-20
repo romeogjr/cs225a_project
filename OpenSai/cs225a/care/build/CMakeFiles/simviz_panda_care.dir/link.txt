@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/simviz_panda_care.dir/simviz.o -o /panda_care/simviz_panda_care 

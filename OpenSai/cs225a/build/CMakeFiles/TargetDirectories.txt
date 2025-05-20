@@ -1,46 +1,46 @@
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw0/CMakeFiles/hw0.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw0/CMakeFiles/hw0-viz.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw0/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw0/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw1/CMakeFiles/hw1.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw1/CMakeFiles/hw1-simviz.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw1/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw1/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw2/CMakeFiles/hw2.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw2/CMakeFiles/hw2-simviz.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw2/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw2/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw3/CMakeFiles/hw3.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw3/CMakeFiles/hw3-simviz.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw3/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/homework/hw3/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/panda/CMakeFiles/simviz_panda_gripper.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/panda/CMakeFiles/controller_panda_gripper.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/panda/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/panda/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/mmp_panda/CMakeFiles/controller_mmp_panda.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/mmp_panda/CMakeFiles/simviz_mmp_panda.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/mmp_panda/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/mmp_panda/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/toro/CMakeFiles/controller_toro.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/toro/CMakeFiles/simviz_toro.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/toro/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/toro/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/ocean1/CMakeFiles/controller_ocean1.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/ocean1/CMakeFiles/simviz_ocean1.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/ocean1/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/ocean1/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/spot/CMakeFiles/controller_spot.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/spot/CMakeFiles/simviz_spot.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/spot/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/project_starter/spot/CMakeFiles/rebuild_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/care/CMakeFiles/simviz_panda_care.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/care/CMakeFiles/controller_panda_care.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/care/CMakeFiles/edit_cache.dir
-/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/build/care/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw0/CMakeFiles/hw0.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw0/CMakeFiles/hw0-viz.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw0/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw0/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw1/CMakeFiles/hw1.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw1/CMakeFiles/hw1-simviz.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw1/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw1/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw2/CMakeFiles/hw2.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw2/CMakeFiles/hw2-simviz.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw2/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw2/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw3/CMakeFiles/hw3.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw3/CMakeFiles/hw3-simviz.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw3/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/homework/hw3/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/panda/CMakeFiles/simviz_panda_gripper.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/panda/CMakeFiles/controller_panda_gripper.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/panda/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/panda/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/mmp_panda/CMakeFiles/controller_mmp_panda.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/mmp_panda/CMakeFiles/simviz_mmp_panda.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/mmp_panda/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/mmp_panda/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/toro/CMakeFiles/controller_toro.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/toro/CMakeFiles/simviz_toro.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/toro/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/toro/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/ocean1/CMakeFiles/controller_ocean1.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/ocean1/CMakeFiles/simviz_ocean1.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/ocean1/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/ocean1/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/spot/CMakeFiles/controller_spot.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/spot/CMakeFiles/simviz_spot.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/spot/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/project_starter/spot/CMakeFiles/rebuild_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/care/CMakeFiles/simviz_panda_care.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/care/CMakeFiles/controller_panda_care.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/care/CMakeFiles/edit_cache.dir
+/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/build/care/CMakeFiles/rebuild_cache.dir

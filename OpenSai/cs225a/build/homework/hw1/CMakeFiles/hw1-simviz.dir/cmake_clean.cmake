@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/bin/hw1/hw1-simviz"
-  "/Users/romeo/Documents/courses/Spring 2025/CS225A/cs225a_project/OpenSai/cs225a/bin/hw1/hw1-simviz.pdb"
+  "/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/bin/hw1/hw1-simviz"
+  "/home/yalcintur/workspace/courses/cs225a_project/OpenSai/cs225a/bin/hw1/hw1-simviz.pdb"
   "CMakeFiles/hw1-simviz.dir/hw1-simviz.cpp.o"
   "CMakeFiles/hw1-simviz.dir/hw1-simviz.cpp.o.d"
 )
